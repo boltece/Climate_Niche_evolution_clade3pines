@@ -1,0 +1,64 @@
+install.packages("ENMtools")
+require(devtools)
+install_github("dyerlab/gstudio")
+
+install.packages(c("raster", "sp", "gdistance"), dependencies = TRUE)
+install.packages("rgdal")
+require(gstudio)
+require(raster)
+require(rgdal)
+install.packages("dismo")
+require(dismo)
+
+install.packages ("ENMeval")
+
+setwd("~/Desktop/modeling_materials_bio1-19_30s_bil")
+
+
+#### correlation test ####
+
+bilFile <- list.files (pattern=".bil")
+
+
+for(file in bilFile){
+  print(file)
+  r<- raster(file, native=TRUE)
+  x <- extract(r, Data_A[,c('Longitude', 'Latitude')])
+  Data_A[[file]] <- x
+}
+
+
+
+setwd("~/Desktop/modeling_materials")
+Data_Asty <- read.csv(file="72_Astyanax_genus_coords_for_Maxent_noRedundant.csv")
+Data_A <- Data_Asty[,2:3]
+setwd("~/Desktop/modeling_materials/cropped_bils_Asty")
+
+Data_Xeno <- read.csv(file="Xu_58_coords.csv")
+Data_X <- Data_Xeno[,2:3]
+setwd("~/Desktop/modeling_materials/Xeno_bils")
+
+Data_Pha <- read.csv(file="Pha_79_coords.csv")
+Data_P <- Data_Pha[,2:3]
+setwd("~/Desktop/modeling_materials/Ro_and_Pha_bils")
+                        
+clim <- list.files(pattern = ".bil",full.names = TRUE)    
+
+Data_X
+Data_P
+
+for(file in clim){
+  print(file)
+  r<- raster(file, native=TRUE)
+  x <- extract(r, Data_P[,c('Longitude', 'Latitude')])
+  Data_P[[file]] <- x
+}
+
+
+install.packages("corrplot")
+library(corrplot)
+                        
+Corplot1 <- cor(Data_P, use="pairwise.complete.obs")
+Corplot1
+setwd("~/Desktop/modeling_materials")
+write.csv(Corplot1, file="Pha_bioclim_correlations.csv")
