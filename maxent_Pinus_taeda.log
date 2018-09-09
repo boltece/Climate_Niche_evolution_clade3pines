@@ -1,0 +1,3129 @@
+Tue Oct 04 11:05:28 EDT 2016
+MaxEnt version 3.3.3k
+Checking header of /Users/boltece/Desktop/cropped BioClim1-19_30s_bil/BioClim10.bil
+Checking header of /Users/boltece/Desktop/cropped BioClim1-19_30s_bil/BioClim15.bil
+Checking header of /Users/boltece/Desktop/cropped BioClim1-19_30s_bil/BioClim17.bil
+Checking header of /Users/boltece/Desktop/cropped BioClim1-19_30s_bil/BioClim8.bil
+Checking header of /Users/boltece/Desktop/cropped BioClim1-19_30s_bil/BioClim9.bil
+Checking header of /Users/boltece/Desktop/cropped BioClim1-19_30s_bil/VariableBioClim2.bil
+Checking header of /Users/boltece/Desktop/cropped BioClim1-19_30s_bil/VariableBioClim4.bil
+Reading samples from Loblolly_4.csv
+Read samples: max memory 1908932608, total allocated 792723456, free 293773168, used 498950288, increment 363578136
+Extractor: max memory 1908932608, total allocated 792723456, free 293639680, used 499083776, increment 133488
+Extracting random background and sample data
+Warning: Sample at -76.740211, 34.69905 in Loblolly_4.csv is missing some environmental data (e.g. BioClim10)
+Warning: Skipping sample at -76.740211, 34.69905 which has no environmental data
+Warning: Sample at -76.593783, 34.660792 in Loblolly_4.csv is missing some environmental data (e.g. BioClim10)
+Warning: Skipping sample at -76.593783, 34.660792 which has no environmental data
+Warning: Sample at -77.14884, 34.63183 in Loblolly_4.csv is missing some environmental data (e.g. BioClim10)
+Warning: Skipping sample at -77.14884, 34.63183 which has no environmental data
+Time since start: 55.688
+6281959 points with values for all grids
+Adding samples to background in feature space
+Command line used: 
+Command line to repeat: java density.MaxEnt nowarnings noprefixes responsecurves jackknife "outputdirectory=/Users/boltece/Desktop/Trial_4/taeda_7common_var/data fixed" samplesfile=/Users/boltece/Desktop/Loblolly_4.csv "environmentallayers=/Users/boltece/Desktop/cropped BioClim1-19_30s_bil" randomseed replicates=10 replicatetype=bootstrap writebackgroundpredictions writeplotdata fadebyclamping maximumiterations=1000 -N BioClim11 -N BioClim12 -N BioClim13 -N BioClim14 -N BioClim16 -N BioClim18 -N BioClim19 -N BioClim5 -N BioClim6 -N BioClim7 -N VariableBioClim3 -N VariableBioClim_1
+Species: Pinus_taeda_0 Pinus_taeda_1 Pinus_taeda_2 Pinus_taeda_3 Pinus_taeda_4 Pinus_taeda_5 Pinus_taeda_6 Pinus_taeda_7 Pinus_taeda_8 Pinus_taeda_9
+Layers: BioClim10 BioClim15 BioClim17 BioClim8 BioClim9 VariableBioClim2 VariableBioClim4
+Layertypes: Continuous Continuous Continuous Continuous Continuous Continuous Continuous
+responsecurves: true
+jackknife: true
+outputdirectory: /Users/boltece/Desktop/Trial_4/taeda_7common_var/data fixed
+samplesfile: /Users/boltece/Desktop/Loblolly_4.csv
+environmentallayers: /Users/boltece/Desktop/cropped BioClim1-19_30s_bil
+randomseed: true
+replicates: 10
+replicatetype: bootstrap
+writebackgroundpredictions: true
+writeplotdata: true
+fadebyclamping: true
+maximumiterations: 1000
+
+getSamples: max memory 1908932608, total allocated 792723456, free 160980176, used 631743280, increment 132659504
+Making features
+makeFeatures: max memory 1908932608, total allocated 792723456, free 155974000, used 636749456, increment 5006176
+Pinus_taeda_0: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 792723456, free 145268664, used 647454792, increment 10705336
+linearPredictor: max memory 1908932608, total allocated 792723456, free 145268664, used 647454792, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 792723456, free 145268664, used 647454792, increment 0
+Sequential: max memory 1908932608, total allocated 792723456, free 145268664, used 647454792, increment 0
+Initial loss: 9.223157875686796
+Time since start: 61.156
+980: time = 5.315000 loss = 7.733473
+Resulting gain: 1.4896849917747454
+Projecting...
+Writing file /Users/boltece/Desktop/Trial_4/taeda_7common_var/data fixed/Pinus_taeda_0.asc
+Time since start: 136.586
+Writing /Users/boltece/Desktop/Trial_4/taeda_7common_var/data fixed/plots/Pinus_taeda_0.png
+Time since start: 138.972
+Pinus_taeda_0 response curves
+Response curve: only BioClim10
+Making features
+makeFeatures: max memory 1908932608, total allocated 735576064, free 417694424, used 317881640, increment -329573152
+Pinus_taeda_0 BioClim10: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 735576064, free 417462040, used 318114024, increment 232384
+linearPredictor: max memory 1908932608, total allocated 735576064, free 417462040, used 318114024, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 735576064, free 417462040, used 318114024, increment 0
+Sequential: max memory 1908932608, total allocated 735576064, free 417462040, used 318114024, increment 0
+Initial loss: 9.223157875686796
+160: time = 0.219000 loss = 8.639788
+Resulting gain: 0.5833695325564463
+Pinus_taeda_0 response curves
+Response curve: only BioClim15
+Making features
+makeFeatures: max memory 1908932608, total allocated 735576064, free 403421088, used 332154976, increment 14040952
+Pinus_taeda_0 BioClim15: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 735576064, free 403421088, used 332154976, increment 0
+linearPredictor: max memory 1908932608, total allocated 735576064, free 403421088, used 332154976, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 735576064, free 403421088, used 332154976, increment 0
+Sequential: max memory 1908932608, total allocated 735576064, free 403421088, used 332154976, increment 0
+Initial loss: 9.223157875686796
+140: time = 0.187000 loss = 8.908817
+Resulting gain: 0.3143409068885923
+Pinus_taeda_0 response curves
+Time since start: 140.0
+Response curve: only BioClim17
+Making features
+makeFeatures: max memory 1908932608, total allocated 735576064, free 401489488, used 334086576, increment 1931600
+Pinus_taeda_0 BioClim17: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 735576064, free 389667896, used 345908168, increment 11821592
+linearPredictor: max memory 1908932608, total allocated 735576064, free 389667896, used 345908168, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 735576064, free 389667896, used 345908168, increment 0
+Sequential: max memory 1908932608, total allocated 735576064, free 389667896, used 345908168, increment 0
+Initial loss: 9.223157875686796
+440: time = 0.636000 loss = 8.443427
+Resulting gain: 0.7797309039311351
+Pinus_taeda_0 response curves
+Response curve: only BioClim8
+Making features
+makeFeatures: max memory 1908932608, total allocated 735576064, free 347735336, used 387840728, increment 41932560
+Pinus_taeda_0 BioClim8: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 735576064, free 335934280, used 399641784, increment 11801056
+linearPredictor: max memory 1908932608, total allocated 735576064, free 335934280, used 399641784, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 735576064, free 335934280, used 399641784, increment 0
+Sequential: max memory 1908932608, total allocated 735576064, free 335934280, used 399641784, increment 0
+Initial loss: 9.223157875686796
+Time since start: 141.662
+640: time = 0.909000 loss = 8.662046
+Resulting gain: 0.5611123391377646
+Pinus_taeda_0 response curves
+Response curve: only BioClim9
+Making features
+makeFeatures: max memory 1908932608, total allocated 735576064, free 267443776, used 468132288, increment 68490504
+Pinus_taeda_0 BioClim9: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 735576064, free 267443776, used 468132288, increment 0
+linearPredictor: max memory 1908932608, total allocated 735576064, free 267443776, used 468132288, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 735576064, free 267443776, used 468132288, increment 0
+Sequential: max memory 1908932608, total allocated 735576064, free 267443776, used 468132288, increment 0
+Initial loss: 9.223157875686796
+420: time = 0.669000 loss = 8.413699
+Resulting gain: 0.809458811009506
+Pinus_taeda_0 response curves
+Response curve: only VariableBioClim2
+Making features
+makeFeatures: max memory 1908932608, total allocated 735576064, free 202263304, used 533312760, increment 65180472
+Pinus_taeda_0 VariableBioClim2: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 735576064, free 202031112, used 533544952, increment 232192
+linearPredictor: max memory 1908932608, total allocated 735576064, free 202031112, used 533544952, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 735576064, free 202031112, used 533544952, increment 0
+Sequential: max memory 1908932608, total allocated 735576064, free 202031112, used 533544952, increment 0
+Initial loss: 9.223157875686796
+120: time = 0.148000 loss = 9.068712
+Resulting gain: 0.1544460688842868
+Pinus_taeda_0 response curves
+Time since start: 142.727
+Response curve: only VariableBioClim4
+Making features
+makeFeatures: max memory 1908932608, total allocated 735576064, free 200564280, used 535011784, increment 1466832
+Pinus_taeda_0 VariableBioClim4: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 735576064, free 200564280, used 535011784, increment 0
+linearPredictor: max memory 1908932608, total allocated 735576064, free 200564280, used 535011784, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 735576064, free 200564280, used 535011784, increment 0
+Sequential: max memory 1908932608, total allocated 735576064, free 200564280, used 535011784, increment 0
+Initial loss: 9.223157875686796
+Time since start: 143.951
+320: time = 1.205000 loss = 8.293127
+Resulting gain: 0.9300303776109171
+Pinus_taeda_0 response curves
+Jackknife: leave BioClim10 out
+Making features
+makeFeatures: max memory 1908932608, total allocated 779616256, free 383895624, used 395720632, increment -139291152
+Pinus_taeda_0 BioClim10: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 779616256, free 383895624, used 395720632, increment 0
+linearPredictor: max memory 1908932608, total allocated 779616256, free 383895624, used 395720632, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 779616256, free 383895624, used 395720632, increment 0
+Sequential: max memory 1908932608, total allocated 779616256, free 383895624, used 395720632, increment 0
+Initial loss: 9.223157875686796
+Time since start: 149.646
+1000: time = 5.190000 loss = 7.794447
+Jackknife: leave BioClim15 out
+Making features
+makeFeatures: max memory 1908932608, total allocated 698875904, free 600676368, used 98199536, increment -297521096
+Pinus_taeda_0 BioClim15: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 698875904, free 588953056, used 109922848, increment 11723312
+linearPredictor: max memory 1908932608, total allocated 698875904, free 588953056, used 109922848, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 698875904, free 588953056, used 109922848, increment 0
+Sequential: max memory 1908932608, total allocated 698875904, free 588953056, used 109922848, increment 0
+Initial loss: 9.223157875686796
+Time since start: 154.92
+980: time = 5.172000 loss = 7.763351
+Jackknife: leave BioClim17 out
+Making features
+makeFeatures: max memory 1908932608, total allocated 644874240, free 62205440, used 582668800, increment 472745952
+Pinus_taeda_0 BioClim17: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 644874240, free 51504160, used 593370080, increment 10701280
+linearPredictor: max memory 1908932608, total allocated 644874240, free 51504160, used 593370080, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 644874240, free 51504160, used 593370080, increment 0
+Sequential: max memory 1908932608, total allocated 644874240, free 51504160, used 593370080, increment 0
+Initial loss: 9.223157875686796
+Time since start: 160.073
+1000: time = 5.055000 loss = 7.807217
+Jackknife: leave BioClim8 out
+Making features
+makeFeatures: max memory 1908932608, total allocated 541589504, free 438104408, used 103485096, increment -489884984
+Pinus_taeda_0 BioClim8: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 541589504, free 429235208, used 112354296, increment 8869200
+linearPredictor: max memory 1908932608, total allocated 541589504, free 429235208, used 112354296, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 541589504, free 429235208, used 112354296, increment 0
+Sequential: max memory 1908932608, total allocated 541589504, free 429235208, used 112354296, increment 0
+Initial loss: 9.223157875686796
+Time since start: 164.23
+800: time = 4.056000 loss = 7.783051
+Jackknife: leave BioClim9 out
+Making features
+makeFeatures: max memory 1908932608, total allocated 482869248, free 370934784, used 111934464, increment -419832
+Pinus_taeda_0 BioClim9: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 482869248, free 363231544, used 119637704, increment 7703240
+linearPredictor: max memory 1908932608, total allocated 482869248, free 363231544, used 119637704, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 482869248, free 363231544, used 119637704, increment 0
+Sequential: max memory 1908932608, total allocated 482869248, free 363231544, used 119637704, increment 0
+Initial loss: 9.223157875686796
+Time since start: 169.275
+1000: time = 4.945000 loss = 7.749159
+Jackknife: leave VariableBioClim2 out
+Making features
+makeFeatures: max memory 1908932608, total allocated 417333248, free 185524864, used 231808384, increment 112170680
+Pinus_taeda_0 VariableBioClim2: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 417333248, free 172521344, used 244811904, increment 13003520
+linearPredictor: max memory 1908932608, total allocated 417333248, free 172521344, used 244811904, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 417333248, free 172521344, used 244811904, increment 0
+Sequential: max memory 1908932608, total allocated 417333248, free 172521344, used 244811904, increment 0
+Initial loss: 9.223157875686796
+Time since start: 174.078
+900: time = 4.703000 loss = 7.768094
+Jackknife: leave VariableBioClim4 out
+Making features
+makeFeatures: max memory 1908932608, total allocated 349175808, free 155321576, used 193854232, increment -50957672
+Pinus_taeda_0 VariableBioClim4: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 349175808, free 144835008, used 204340800, increment 10486568
+linearPredictor: max memory 1908932608, total allocated 349175808, free 144835008, used 204340800, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 349175808, free 144835008, used 204340800, increment 0
+Sequential: max memory 1908932608, total allocated 349175808, free 144835008, used 204340800, increment 0
+Initial loss: 9.223157875686796
+Time since start: 177.061
+1000: time = 2.889000 loss = 7.838433
+Jackknife: only BioClim10
+Making features
+makeFeatures: max memory 1908932608, total allocated 330825728, free 222471080, used 108354648, increment -95986152
+Pinus_taeda_0 BioClim10: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 330825728, free 222299680, used 108526048, increment 171400
+linearPredictor: max memory 1908932608, total allocated 330825728, free 222299680, used 108526048, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 330825728, free 222299680, used 108526048, increment 0
+Sequential: max memory 1908932608, total allocated 330825728, free 222299680, used 108526048, increment 0
+Initial loss: 9.223157875686796
+160: time = 0.220000 loss = 8.639788
+Res.gain: 0.5833695325564463
+Jackknife: only BioClim15
+Making features
+makeFeatures: max memory 1908932608, total allocated 330825728, free 210771040, used 120054688, increment 11528640
+Pinus_taeda_0 BioClim15: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 330825728, free 210771040, used 120054688, increment 0
+linearPredictor: max memory 1908932608, total allocated 330825728, free 210771040, used 120054688, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 330825728, free 210771040, used 120054688, increment 0
+Sequential: max memory 1908932608, total allocated 330825728, free 210771040, used 120054688, increment 0
+Initial loss: 9.223157875686796
+140: time = 0.183000 loss = 8.908817
+Res.gain: 0.3143409068885923
+Jackknife: only BioClim17
+Making features
+makeFeatures: max memory 1908932608, total allocated 330825728, free 204135712, used 126690016, increment 6635328
+Pinus_taeda_0 BioClim17: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 330825728, free 204135712, used 126690016, increment 0
+linearPredictor: max memory 1908932608, total allocated 330825728, free 204135712, used 126690016, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 330825728, free 204135712, used 126690016, increment 0
+Sequential: max memory 1908932608, total allocated 330825728, free 204135712, used 126690016, increment 0
+Initial loss: 9.223157875686796
+Time since start: 178.14
+440: time = 0.628000 loss = 8.443427
+Res.gain: 0.7797309039311351
+Jackknife: only BioClim8
+Making features
+makeFeatures: max memory 1908932608, total allocated 330825728, free 155902928, used 174922800, increment 48232784
+Pinus_taeda_0 BioClim8: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 330825728, free 155767304, used 175058424, increment 135624
+linearPredictor: max memory 1908932608, total allocated 330825728, free 155767304, used 175058424, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 330825728, free 155767304, used 175058424, increment 0
+Sequential: max memory 1908932608, total allocated 330825728, free 155767304, used 175058424, increment 0
+Initial loss: 9.223157875686796
+640: time = 0.917000 loss = 8.662046
+Res.gain: 0.5611123391377646
+Jackknife: only BioClim9
+Making features
+makeFeatures: max memory 1908932608, total allocated 330825728, free 85803824, used 245021904, increment 69963480
+Pinus_taeda_0 BioClim9: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 330825728, free 81151136, used 249674592, increment 4652688
+linearPredictor: max memory 1908932608, total allocated 330825728, free 81151136, used 249674592, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 330825728, free 81151136, used 249674592, increment 0
+Sequential: max memory 1908932608, total allocated 330825728, free 81151136, used 249674592, increment 0
+Initial loss: 9.223157875686796
+Time since start: 179.759
+420: time = 0.669000 loss = 8.413699
+Res.gain: 0.809458811009506
+Jackknife: only VariableBioClim2
+Making features
+makeFeatures: max memory 1908932608, total allocated 325058560, free 255114608, used 69943952, increment -179730640
+Pinus_taeda_0 VariableBioClim2: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 325058560, free 255114608, used 69943952, increment 0
+linearPredictor: max memory 1908932608, total allocated 325058560, free 255114608, used 69943952, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 325058560, free 255114608, used 69943952, increment 0
+Sequential: max memory 1908932608, total allocated 325058560, free 255114608, used 69943952, increment 0
+Initial loss: 9.223157875686796
+120: time = 0.145000 loss = 9.068712
+Res.gain: 0.1544460688842868
+Jackknife: only VariableBioClim4
+Making features
+makeFeatures: max memory 1908932608, total allocated 325058560, free 249303088, used 75755472, increment 5811520
+Pinus_taeda_0 VariableBioClim4: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 325058560, free 244955864, used 80102696, increment 4347224
+linearPredictor: max memory 1908932608, total allocated 325058560, free 244955864, used 80102696, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 325058560, free 244955864, used 80102696, increment 0
+Sequential: max memory 1908932608, total allocated 325058560, free 244955864, used 80102696, increment 0
+Initial loss: 9.223157875686796
+Time since start: 181.139
+320: time = 1.200000 loss = 8.293127
+Res.gain: 0.9300303776109171
+getSamples: max memory 1908932608, total allocated 310378496, free 45215832, used 265162664, increment 185059968
+Making features
+makeFeatures: max memory 1908932608, total allocated 310378496, free 43751296, used 266627200, increment 1464536
+Pinus_taeda_1: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 310378496, free 35327456, used 275051040, increment 8423840
+linearPredictor: max memory 1908932608, total allocated 310378496, free 35327456, used 275051040, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 310378496, free 35327456, used 275051040, increment 0
+Sequential: max memory 1908932608, total allocated 310378496, free 35327456, used 275051040, increment 0
+Initial loss: 9.223157875686796
+Time since start: 186.872
+1000: time = 5.564000 loss = 7.823123
+Resulting gain: 1.4000352559402405
+Projecting...
+Writing file /Users/boltece/Desktop/Trial_4/taeda_7common_var/data fixed/Pinus_taeda_1.asc
+Time since start: 262.842
+Writing /Users/boltece/Desktop/Trial_4/taeda_7common_var/data fixed/plots/Pinus_taeda_1.png
+Time since start: 265.328
+Pinus_taeda_1 response curves
+Response curve: only BioClim10
+Making features
+makeFeatures: max memory 1908932608, total allocated 436731904, free 107153864, used 329578040, increment 54527000
+Pinus_taeda_1 BioClim10: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 436731904, free 107153864, used 329578040, increment 0
+linearPredictor: max memory 1908932608, total allocated 436731904, free 107153864, used 329578040, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 436731904, free 107153864, used 329578040, increment 0
+Sequential: max memory 1908932608, total allocated 436731904, free 107153864, used 329578040, increment 0
+Initial loss: 9.223157875686796
+240: time = 0.361000 loss = 8.648377
+Resulting gain: 0.5747806636563677
+Pinus_taeda_1 response curves
+Response curve: only BioClim15
+Making features
+makeFeatures: max memory 1908932608, total allocated 436731904, free 83911032, used 352820872, increment 23242832
+Pinus_taeda_1 BioClim15: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 436731904, free 83873344, used 352858560, increment 37688
+linearPredictor: max memory 1908932608, total allocated 436731904, free 83873344, used 352858560, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 436731904, free 83873344, used 352858560, increment 0
+Sequential: max memory 1908932608, total allocated 436731904, free 83873344, used 352858560, increment 0
+Initial loss: 9.223157875686796
+Time since start: 266.651
+300: time = 0.396000 loss = 9.020401
+Resulting gain: 0.2027568276642615
+Pinus_taeda_1 response curves
+Response curve: only BioClim17
+Making features
+makeFeatures: max memory 1908932608, total allocated 436731904, free 72950544, used 363781360, increment 10922800
+Pinus_taeda_1 BioClim17: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 436731904, free 72950544, used 363781360, increment 0
+linearPredictor: max memory 1908932608, total allocated 436731904, free 72950544, used 363781360, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 436731904, free 72950544, used 363781360, increment 0
+Sequential: max memory 1908932608, total allocated 436731904, free 72950544, used 363781360, increment 0
+Initial loss: 9.223157875686796
+160: time = 0.263000 loss = 8.592443
+Resulting gain: 0.6307150566955428
+Pinus_taeda_1 response curves
+Response curve: only BioClim8
+Making features
+makeFeatures: max memory 1908932608, total allocated 496500736, free 432126960, used 64373776, increment -299407584
+Pinus_taeda_1 BioClim8: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 496500736, free 432126960, used 64373776, increment 0
+linearPredictor: max memory 1908932608, total allocated 496500736, free 432126960, used 64373776, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 496500736, free 432126960, used 64373776, increment 0
+Sequential: max memory 1908932608, total allocated 496500736, free 432126960, used 64373776, increment 0
+Initial loss: 9.223157875686796
+440: time = 0.576000 loss = 8.574748
+Resulting gain: 0.6484100940184216
+Pinus_taeda_1 response curves
+Time since start: 267.707
+Response curve: only BioClim9
+Making features
+makeFeatures: max memory 1908932608, total allocated 496500736, free 379580888, used 116919848, increment 52546072
+Pinus_taeda_1 BioClim9: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 496500736, free 379580888, used 116919848, increment 0
+linearPredictor: max memory 1908932608, total allocated 496500736, free 379580888, used 116919848, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 496500736, free 379580888, used 116919848, increment 0
+Sequential: max memory 1908932608, total allocated 496500736, free 379580888, used 116919848, increment 0
+Initial loss: 9.223157875686796
+340: time = 0.558000 loss = 8.424044
+Resulting gain: 0.7991133957834613
+Pinus_taeda_1 response curves
+Response curve: only VariableBioClim2
+Making features
+makeFeatures: max memory 1908932608, total allocated 496500736, free 328392208, used 168108528, increment 51188680
+Pinus_taeda_1 VariableBioClim2: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 496500736, free 328392208, used 168108528, increment 0
+linearPredictor: max memory 1908932608, total allocated 496500736, free 328392208, used 168108528, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 496500736, free 328392208, used 168108528, increment 0
+Sequential: max memory 1908932608, total allocated 496500736, free 328392208, used 168108528, increment 0
+Initial loss: 9.223157875686796
+140: time = 0.193000 loss = 9.071989
+Resulting gain: 0.15116916292236127
+Pinus_taeda_1 response curves
+Response curve: only VariableBioClim4
+Making features
+makeFeatures: max memory 1908932608, total allocated 496500736, free 318702176, used 177798560, increment 9690032
+Pinus_taeda_1 VariableBioClim4: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 496500736, free 311033088, used 185467648, increment 7669088
+linearPredictor: max memory 1908932608, total allocated 496500736, free 311033088, used 185467648, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 496500736, free 311033088, used 185467648, increment 0
+Sequential: max memory 1908932608, total allocated 496500736, free 311033088, used 185467648, increment 0
+Initial loss: 9.223157875686796
+Time since start: 270.731
+540: time = 2.085000 loss = 8.312446
+Resulting gain: 0.9107120276744798
+Pinus_taeda_1 response curves
+Jackknife: leave BioClim10 out
+Making features
+makeFeatures: max memory 1908932608, total allocated 567279616, free 427276328, used 140003288, increment -45464360
+Pinus_taeda_1 BioClim10: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 567279616, free 418031392, used 149248224, increment 9244936
+linearPredictor: max memory 1908932608, total allocated 567279616, free 418031392, used 149248224, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 567279616, free 418031392, used 149248224, increment 0
+Sequential: max memory 1908932608, total allocated 567279616, free 418031392, used 149248224, increment 0
+Initial loss: 9.223157875686796
+Time since start: 276.558
+1000: time = 5.310000 loss = 7.858440
+Jackknife: leave BioClim15 out
+Making features
+makeFeatures: max memory 1908932608, total allocated 645398528, free 284100944, used 361297584, increment 212049360
+Pinus_taeda_1 BioClim15: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 645398528, free 273369848, used 372028680, increment 10731096
+linearPredictor: max memory 1908932608, total allocated 645398528, free 273369848, used 372028680, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 645398528, free 273369848, used 372028680, increment 0
+Sequential: max memory 1908932608, total allocated 645398528, free 273369848, used 372028680, increment 0
+Initial loss: 9.223157875686796
+Time since start: 281.968
+1000: time = 5.311000 loss = 7.835629
+Jackknife: leave BioClim17 out
+Making features
+makeFeatures: max memory 1908932608, total allocated 663748608, free 347435384, used 316313224, increment -55715456
+Pinus_taeda_1 BioClim17: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 663748608, free 347435384, used 316313224, increment 0
+linearPredictor: max memory 1908932608, total allocated 663748608, free 347435384, used 316313224, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 663748608, free 347435384, used 316313224, increment 0
+Sequential: max memory 1908932608, total allocated 663748608, free 347435384, used 316313224, increment 0
+Initial loss: 9.223157875686796
+Time since start: 287.198
+1000: time = 5.130000 loss = 7.889057
+Jackknife: leave BioClim8 out
+Making features
+makeFeatures: max memory 1908932608, total allocated 579862528, free 327283264, used 252579264, increment -63733960
+Pinus_taeda_1 BioClim8: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 579862528, free 317565624, used 262296904, increment 9717640
+linearPredictor: max memory 1908932608, total allocated 579862528, free 317565624, used 262296904, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 579862528, free 317565624, used 262296904, increment 0
+Sequential: max memory 1908932608, total allocated 579862528, free 317565624, used 262296904, increment 0
+Initial loss: 9.223157875686796
+Time since start: 292.335
+1000: time = 5.038000 loss = 7.909626
+Jackknife: leave BioClim9 out
+Making features
+makeFeatures: max memory 1908932608, total allocated 496500736, free 429917000, used 66583736, increment -195713168
+Pinus_taeda_1 BioClim9: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 496500736, free 421891936, used 74608800, increment 8025064
+linearPredictor: max memory 1908932608, total allocated 496500736, free 421891936, used 74608800, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 496500736, free 421891936, used 74608800, increment 0
+Sequential: max memory 1908932608, total allocated 496500736, free 421891936, used 74608800, increment 0
+Initial loss: 9.223157875686796
+Time since start: 297.517
+1000: time = 5.079000 loss = 7.857698
+Jackknife: leave VariableBioClim2 out
+Making features
+makeFeatures: max memory 1908932608, total allocated 426246144, free 283044928, used 143201216, increment 68592416
+Pinus_taeda_1 VariableBioClim2: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 426246144, free 276196328, used 150049816, increment 6848600
+linearPredictor: max memory 1908932608, total allocated 426246144, free 276196328, used 150049816, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 426246144, free 276196328, used 150049816, increment 0
+Sequential: max memory 1908932608, total allocated 426246144, free 276196328, used 150049816, increment 0
+Initial loss: 9.223157875686796
+Time since start: 302.925
+1000: time = 5.308000 loss = 7.845607
+Jackknife: leave VariableBioClim4 out
+Making features
+makeFeatures: max memory 1908932608, total allocated 356515840, free 123893032, used 232622808, increment 82572992
+Pinus_taeda_1 VariableBioClim4: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 356515840, free 118495136, used 238020704, increment 5397896
+linearPredictor: max memory 1908932608, total allocated 356515840, free 118495136, used 238020704, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 356515840, free 118495136, used 238020704, increment 0
+Sequential: max memory 1908932608, total allocated 356515840, free 118495136, used 238020704, increment 0
+Initial loss: 9.223157875686796
+Time since start: 305.857
+1000: time = 2.836000 loss = 7.914196
+Jackknife: only BioClim10
+Making features
+makeFeatures: max memory 1908932608, total allocated 337641472, free 206787080, used 130854392, increment -107166312
+Pinus_taeda_1 BioClim10: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 337641472, free 206787080, used 130854392, increment 0
+linearPredictor: max memory 1908932608, total allocated 337641472, free 206787080, used 130854392, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 337641472, free 206787080, used 130854392, increment 0
+Sequential: max memory 1908932608, total allocated 337641472, free 206787080, used 130854392, increment 0
+Initial loss: 9.223157875686796
+240: time = 0.354000 loss = 8.648377
+Res.gain: 0.5747806636563677
+Jackknife: only BioClim15
+Making features
+makeFeatures: max memory 1908932608, total allocated 337641472, free 193494440, used 144147032, increment 13292640
+Pinus_taeda_1 BioClim15: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 337641472, free 188674848, used 148966624, increment 4819592
+linearPredictor: max memory 1908932608, total allocated 337641472, free 188674848, used 148966624, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 337641472, free 188674848, used 148966624, increment 0
+Sequential: max memory 1908932608, total allocated 337641472, free 188674848, used 148966624, increment 0
+Initial loss: 9.223157875686796
+300: time = 0.388000 loss = 9.020401
+Res.gain: 0.2027568276642615
+Jackknife: only BioClim17
+Making features
+makeFeatures: max memory 1908932608, total allocated 337641472, free 179543960, used 158097512, increment 9130888
+Pinus_taeda_1 BioClim17: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 337641472, free 179543960, used 158097512, increment 0
+linearPredictor: max memory 1908932608, total allocated 337641472, free 179543960, used 158097512, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 337641472, free 179543960, used 158097512, increment 0
+Sequential: max memory 1908932608, total allocated 337641472, free 179543960, used 158097512, increment 0
+Initial loss: 9.223157875686796
+Time since start: 306.898
+160: time = 0.249000 loss = 8.592443
+Res.gain: 0.6307150566955428
+Jackknife: only BioClim8
+Making features
+makeFeatures: max memory 1908932608, total allocated 337641472, free 162755992, used 174885480, increment 16787968
+Pinus_taeda_1 BioClim8: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 337641472, free 157895368, used 179746104, increment 4860624
+linearPredictor: max memory 1908932608, total allocated 337641472, free 157895368, used 179746104, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 337641472, free 157895368, used 179746104, increment 0
+Sequential: max memory 1908932608, total allocated 337641472, free 157895368, used 179746104, increment 0
+Initial loss: 9.223157875686796
+440: time = 0.574000 loss = 8.574748
+Res.gain: 0.6484100940184216
+Jackknife: only BioClim9
+Making features
+makeFeatures: max memory 1908932608, total allocated 337641472, free 112659552, used 224981920, increment 45235816
+Pinus_taeda_1 BioClim9: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 337641472, free 107798928, used 229842544, increment 4860624
+linearPredictor: max memory 1908932608, total allocated 337641472, free 107798928, used 229842544, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 337641472, free 107798928, used 229842544, increment 0
+Sequential: max memory 1908932608, total allocated 337641472, free 107798928, used 229842544, increment 0
+Initial loss: 9.223157875686796
+Time since start: 308.054
+340: time = 0.551000 loss = 8.424044
+Res.gain: 0.7991133957834613
+Jackknife: only VariableBioClim2
+Making features
+makeFeatures: max memory 1908932608, total allocated 337641472, free 64021280, used 273620192, increment 43777648
+Pinus_taeda_1 VariableBioClim2: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 337641472, free 64021280, used 273620192, increment 0
+linearPredictor: max memory 1908932608, total allocated 337641472, free 64021280, used 273620192, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 337641472, free 64021280, used 273620192, increment 0
+Sequential: max memory 1908932608, total allocated 337641472, free 64021280, used 273620192, increment 0
+Initial loss: 9.223157875686796
+140: time = 0.196000 loss = 9.071989
+Res.gain: 0.15116916292236127
+Jackknife: only VariableBioClim4
+Making features
+makeFeatures: max memory 1908932608, total allocated 337641472, free 57252184, used 280389288, increment 6769096
+Pinus_taeda_1 VariableBioClim4: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 337641472, free 57113752, used 280527720, increment 138432
+linearPredictor: max memory 1908932608, total allocated 337641472, free 57113752, used 280527720, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 337641472, free 57113752, used 280527720, increment 0
+Sequential: max memory 1908932608, total allocated 337641472, free 57113752, used 280527720, increment 0
+Initial loss: 9.223157875686796
+Time since start: 310.333
+540: time = 2.048000 loss = 8.312446
+Res.gain: 0.9107120276744798
+getSamples: max memory 1908932608, total allocated 303562752, free 25999768, used 277562984, increment -2964736
+Making features
+makeFeatures: max memory 1908932608, total allocated 296747008, free 225582416, used 71164592, increment -206398392
+Pinus_taeda_2: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 296747008, free 217448928, used 79298080, increment 8133488
+linearPredictor: max memory 1908932608, total allocated 296747008, free 217448928, used 79298080, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 296747008, free 217448928, used 79298080, increment 0
+Sequential: max memory 1908932608, total allocated 296747008, free 217448928, used 79298080, increment 0
+Initial loss: 9.223157875686796
+Time since start: 315.973
+1000: time = 5.469000 loss = 7.767295
+Resulting gain: 1.4558624929954203
+Projecting...
+Writing file /Users/boltece/Desktop/Trial_4/taeda_7common_var/data fixed/Pinus_taeda_2.asc
+Time since start: 393.459
+Writing /Users/boltece/Desktop/Trial_4/taeda_7common_var/data fixed/plots/Pinus_taeda_2.png
+Time since start: 395.957
+Pinus_taeda_2 response curves
+Response curve: only BioClim10
+Making features
+makeFeatures: max memory 1908932608, total allocated 431489024, free 366275400, used 65213624, increment -14084456
+Pinus_taeda_2 BioClim10: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 431489024, free 366223952, used 65265072, increment 51448
+linearPredictor: max memory 1908932608, total allocated 431489024, free 366223952, used 65265072, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 431489024, free 366223952, used 65265072, increment 0
+Sequential: max memory 1908932608, total allocated 431489024, free 366223952, used 65265072, increment 0
+Initial loss: 9.223157875686796
+Time since start: 397.008
+420: time = 0.553000 loss = 8.555080
+Resulting gain: 0.668077732554984
+Pinus_taeda_2 response curves
+Response curve: only BioClim15
+Making features
+makeFeatures: max memory 1908932608, total allocated 431489024, free 340598696, used 90890328, increment 25625256
+Pinus_taeda_2 BioClim15: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 431489024, free 333935720, used 97553304, increment 6662976
+linearPredictor: max memory 1908932608, total allocated 431489024, free 333935720, used 97553304, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 431489024, free 333935720, used 97553304, increment 0
+Sequential: max memory 1908932608, total allocated 431489024, free 333935720, used 97553304, increment 0
+Initial loss: 9.223157875686796
+300: time = 0.401000 loss = 9.020483
+Resulting gain: 0.20267532494960072
+Pinus_taeda_2 response curves
+Response curve: only BioClim17
+Making features
+makeFeatures: max memory 1908932608, total allocated 431489024, free 322734392, used 108754632, increment 11201328
+Pinus_taeda_2 BioClim17: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 431489024, free 322682944, used 108806080, increment 51448
+linearPredictor: max memory 1908932608, total allocated 431489024, free 322682944, used 108806080, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 431489024, free 322682944, used 108806080, increment 0
+Sequential: max memory 1908932608, total allocated 431489024, free 322682944, used 108806080, increment 0
+Initial loss: 9.223157875686796
+Time since start: 398.134
+360: time = 0.564000 loss = 8.579704
+Resulting gain: 0.6434537485725329
+Pinus_taeda_2 response curves
+Response curve: only BioClim8
+Making features
+makeFeatures: max memory 1908932608, total allocated 431489024, free 276431176, used 155057848, increment 46251768
+Pinus_taeda_2 BioClim8: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 431489024, free 276431176, used 155057848, increment 0
+linearPredictor: max memory 1908932608, total allocated 431489024, free 276431176, used 155057848, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 431489024, free 276431176, used 155057848, increment 0
+Sequential: max memory 1908932608, total allocated 431489024, free 276431176, used 155057848, increment 0
+Initial loss: 9.223157875686796
+520: time = 0.741000 loss = 8.569811
+Resulting gain: 0.6533464977340451
+Pinus_taeda_2 response curves
+Response curve: only BioClim9
+Making features
+makeFeatures: max memory 1908932608, total allocated 431489024, free 214209024, used 217280000, increment 62222152
+Pinus_taeda_2 BioClim9: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 431489024, free 214209024, used 217280000, increment 0
+linearPredictor: max memory 1908932608, total allocated 431489024, free 214209024, used 217280000, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 431489024, free 214209024, used 217280000, increment 0
+Sequential: max memory 1908932608, total allocated 431489024, free 214209024, used 217280000, increment 0
+Initial loss: 9.223157875686796
+Time since start: 399.738
+420: time = 0.700000 loss = 8.347134
+Resulting gain: 0.8760242598462114
+Pinus_taeda_2 response curves
+Response curve: only VariableBioClim2
+Making features
+makeFeatures: max memory 1908932608, total allocated 431489024, free 153432808, used 278056216, increment 60776216
+Pinus_taeda_2 VariableBioClim2: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 431489024, free 153432808, used 278056216, increment 0
+linearPredictor: max memory 1908932608, total allocated 431489024, free 153432808, used 278056216, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 431489024, free 153432808, used 278056216, increment 0
+Sequential: max memory 1908932608, total allocated 431489024, free 153432808, used 278056216, increment 0
+Initial loss: 9.223157875686796
+120: time = 0.164000 loss = 9.101984
+Resulting gain: 0.12117379104614479
+Pinus_taeda_2 response curves
+Response curve: only VariableBioClim4
+Making features
+makeFeatures: max memory 1908932608, total allocated 431489024, free 145046632, used 286442392, increment 8386176
+Pinus_taeda_2 VariableBioClim4: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 431489024, free 145046632, used 286442392, increment 0
+linearPredictor: max memory 1908932608, total allocated 431489024, free 145046632, used 286442392, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 431489024, free 145046632, used 286442392, increment 0
+Sequential: max memory 1908932608, total allocated 431489024, free 145046632, used 286442392, increment 0
+Initial loss: 9.223157875686796
+Time since start: 401.333
+340: time = 1.259000 loss = 8.149854
+Resulting gain: 1.0733040162501961
+Pinus_taeda_2 response curves
+Jackknife: leave BioClim10 out
+Making features
+makeFeatures: max memory 1908932608, total allocated 493355008, free 76316656, used 417038352, increment 130595960
+Pinus_taeda_2 BioClim10: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 493355008, free 68381864, used 424973144, increment 7934792
+linearPredictor: max memory 1908932608, total allocated 493355008, free 68381864, used 424973144, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 493355008, free 68381864, used 424973144, increment 0
+Sequential: max memory 1908932608, total allocated 493355008, free 68381864, used 424973144, increment 0
+Initial loss: 9.223157875686796
+Time since start: 407.204
+1000: time = 5.345000 loss = 7.828516
+Jackknife: leave BioClim15 out
+Making features
+makeFeatures: max memory 1908932608, total allocated 638582784, free 329927496, used 308655288, increment -116317856
+Pinus_taeda_2 BioClim15: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 638582784, free 319270408, used 319312376, increment 10657088
+linearPredictor: max memory 1908932608, total allocated 638582784, free 319270408, used 319312376, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 638582784, free 319270408, used 319312376, increment 0
+Sequential: max memory 1908932608, total allocated 638582784, free 319270408, used 319312376, increment 0
+Initial loss: 9.223157875686796
+Time since start: 412.688
+1000: time = 5.383000 loss = 7.790383
+Jackknife: leave BioClim17 out
+Making features
+makeFeatures: max memory 1908932608, total allocated 558891008, free 220430616, used 338460392, increment 19148016
+Pinus_taeda_2 BioClim17: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 558891008, free 220430616, used 338460392, increment 0
+linearPredictor: max memory 1908932608, total allocated 558891008, free 220430616, used 338460392, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 558891008, free 220430616, used 338460392, increment 0
+Sequential: max memory 1908932608, total allocated 558891008, free 220430616, used 338460392, increment 0
+Initial loss: 9.223157875686796
+Time since start: 417.814
+1000: time = 5.018000 loss = 7.813750
+Jackknife: leave BioClim8 out
+Making features
+makeFeatures: max memory 1908932608, total allocated 478150656, free 349809616, used 128341040, increment -210119352
+Pinus_taeda_2 BioClim8: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 478150656, free 342009904, used 136140752, increment 7799712
+linearPredictor: max memory 1908932608, total allocated 478150656, free 342009904, used 136140752, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 478150656, free 342009904, used 136140752, increment 0
+Sequential: max memory 1908932608, total allocated 478150656, free 342009904, used 136140752, increment 0
+Initial loss: 9.223157875686796
+Time since start: 422.226
+860: time = 4.313000 loss = 7.787983
+Jackknife: leave BioClim9 out
+Making features
+makeFeatures: max memory 1908932608, total allocated 427819008, free 73611664, used 354207344, increment 218066592
+Pinus_taeda_2 BioClim9: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 427819008, free 66679440, used 361139568, increment 6932224
+linearPredictor: max memory 1908932608, total allocated 427819008, free 66679440, used 361139568, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 427819008, free 66679440, used 361139568, increment 0
+Sequential: max memory 1908932608, total allocated 427819008, free 66679440, used 361139568, increment 0
+Initial loss: 9.223157875686796
+Time since start: 427.427
+1000: time = 5.099000 loss = 7.778687
+Jackknife: leave VariableBioClim2 out
+Making features
+makeFeatures: max memory 1908932608, total allocated 358088704, free 85225816, used 272862888, increment -88276680
+Pinus_taeda_2 VariableBioClim2: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 358088704, free 74367232, used 283721472, increment 10858584
+linearPredictor: max memory 1908932608, total allocated 358088704, free 74367232, used 283721472, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 358088704, free 74367232, used 283721472, increment 0
+Sequential: max memory 1908932608, total allocated 358088704, free 74367232, used 283721472, increment 0
+Initial loss: 9.223157875686796
+Time since start: 432.729
+1000: time = 5.192000 loss = 7.815035
+Jackknife: leave VariableBioClim4 out
+Making features
+makeFeatures: max memory 1908932608, total allocated 286785536, free 81023352, used 205762184, increment -77959288
+Pinus_taeda_2 VariableBioClim4: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 286785536, free 72937632, used 213847904, increment 8085720
+linearPredictor: max memory 1908932608, total allocated 286785536, free 72937632, used 213847904, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 286785536, free 72937632, used 213847904, increment 0
+Sequential: max memory 1908932608, total allocated 286785536, free 72937632, used 213847904, increment 0
+Initial loss: 9.223157875686796
+Time since start: 435.671
+1000: time = 2.847000 loss = 7.920594
+Jackknife: only BioClim10
+Making features
+makeFeatures: max memory 1908932608, total allocated 273154048, free 38938160, used 234215888, increment 20367984
+Pinus_taeda_2 BioClim10: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 273154048, free 38938160, used 234215888, increment 0
+linearPredictor: max memory 1908932608, total allocated 273154048, free 38938160, used 234215888, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 273154048, free 38938160, used 234215888, increment 0
+Sequential: max memory 1908932608, total allocated 273154048, free 38938160, used 234215888, increment 0
+Initial loss: 9.223157875686796
+420: time = 0.556000 loss = 8.555080
+Res.gain: 0.668077732554984
+Jackknife: only BioClim15
+Making features
+makeFeatures: max memory 1908932608, total allocated 273154048, free 15155288, used 257998760, increment 23782872
+Pinus_taeda_2 BioClim15: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 273154048, free 11486240, used 261667808, increment 3669048
+linearPredictor: max memory 1908932608, total allocated 273154048, free 11486240, used 261667808, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 273154048, free 11486240, used 261667808, increment 0
+Sequential: max memory 1908932608, total allocated 273154048, free 11486240, used 261667808, increment 0
+Initial loss: 9.223157875686796
+Time since start: 436.713
+300: time = 0.452000 loss = 9.020483
+Res.gain: 0.20267532494960072
+Jackknife: only BioClim17
+Making features
+makeFeatures: max memory 1908932608, total allocated 262668288, free 224883544, used 37784744, increment -223883064
+Pinus_taeda_2 BioClim17: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 262668288, free 224883544, used 37784744, increment 0
+linearPredictor: max memory 1908932608, total allocated 262668288, free 224883544, used 37784744, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 262668288, free 224883544, used 37784744, increment 0
+Sequential: max memory 1908932608, total allocated 262668288, free 224883544, used 37784744, increment 0
+Initial loss: 9.223157875686796
+360: time = 0.569000 loss = 8.579704
+Res.gain: 0.6434537485725329
+Jackknife: only BioClim8
+Making features
+makeFeatures: max memory 1908932608, total allocated 262668288, free 185391272, used 77277016, increment 39492272
+Pinus_taeda_2 BioClim8: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 262668288, free 181815352, used 80852936, increment 3575920
+linearPredictor: max memory 1908932608, total allocated 262668288, free 181815352, used 80852936, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 262668288, free 181815352, used 80852936, increment 0
+Sequential: max memory 1908932608, total allocated 262668288, free 181815352, used 80852936, increment 0
+Initial loss: 9.223157875686796
+Time since start: 438.058
+520: time = 0.743000 loss = 8.569811
+Res.gain: 0.6533464977340451
+Jackknife: only BioClim9
+Making features
+makeFeatures: max memory 1908932608, total allocated 262668288, free 126131728, used 136536560, increment 55683624
+Pinus_taeda_2 BioClim9: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 262668288, free 126050680, used 136617608, increment 81048
+linearPredictor: max memory 1908932608, total allocated 262668288, free 125969632, used 136698656, increment 81048
+FeaturedSpace: max memory 1908932608, total allocated 262668288, free 125969632, used 136698656, increment 0
+Sequential: max memory 1908932608, total allocated 262668288, free 125969632, used 136698656, increment 0
+Initial loss: 9.223157875686796
+420: time = 0.675000 loss = 8.347134
+Res.gain: 0.8760242598462114
+Jackknife: only VariableBioClim2
+Making features
+makeFeatures: max memory 1908932608, total allocated 262668288, free 68216424, used 194451864, increment 57753208
+Pinus_taeda_2 VariableBioClim2: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 262668288, free 68216424, used 194451864, increment 0
+linearPredictor: max memory 1908932608, total allocated 262668288, free 68216424, used 194451864, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 262668288, free 68216424, used 194451864, increment 0
+Sequential: max memory 1908932608, total allocated 262668288, free 68216424, used 194451864, increment 0
+Initial loss: 9.223157875686796
+120: time = 0.166000 loss = 9.101984
+Res.gain: 0.12117379104614479
+Jackknife: only VariableBioClim4
+Making features
+makeFeatures: max memory 1908932608, total allocated 262668288, free 63100808, used 199567480, increment 5115616
+Pinus_taeda_2 VariableBioClim4: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 262668288, free 59641600, used 203026688, increment 3459208
+linearPredictor: max memory 1908932608, total allocated 262668288, free 59641600, used 203026688, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 262668288, free 59641600, used 203026688, increment 0
+Sequential: max memory 1908932608, total allocated 262668288, free 59641600, used 203026688, increment 0
+Initial loss: 9.223157875686796
+Time since start: 440.249
+340: time = 1.294000 loss = 8.149854
+Res.gain: 1.0733040162501961
+getSamples: max memory 1908932608, total allocated 236453888, free 116016488, used 120437400, increment -82589288
+Making features
+makeFeatures: max memory 1908932608, total allocated 236453888, free 111654296, used 124799592, increment 4362192
+Pinus_taeda_3: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 236453888, free 102200376, used 134253512, increment 9453920
+linearPredictor: max memory 1908932608, total allocated 236453888, free 102200376, used 134253512, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 236453888, free 102200376, used 134253512, increment 0
+Sequential: max memory 1908932608, total allocated 236453888, free 102200376, used 134253512, increment 0
+Initial loss: 9.223157875686796
+Time since start: 446.231
+1000: time = 5.808000 loss = 7.874484
+Resulting gain: 1.3486739038668967
+Projecting...
+Writing file /Users/boltece/Desktop/Trial_4/taeda_7common_var/data fixed/Pinus_taeda_3.asc
+Time since start: 525.48
+Writing /Users/boltece/Desktop/Trial_4/taeda_7common_var/data fixed/plots/Pinus_taeda_3.png
+Time since start: 527.88
+Pinus_taeda_3 response curves
+Response curve: only BioClim10
+Making features
+makeFeatures: max memory 1908932608, total allocated 436207616, free 237058912, used 199148704, increment 64895192
+Pinus_taeda_3 BioClim10: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 436207616, free 236986952, used 199220664, increment 71960
+linearPredictor: max memory 1908932608, total allocated 436207616, free 236986952, used 199220664, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 436207616, free 236986952, used 199220664, increment 0
+Sequential: max memory 1908932608, total allocated 436207616, free 236986952, used 199220664, increment 0
+Initial loss: 9.223157875686796
+180: time = 0.247000 loss = 8.596960
+Resulting gain: 0.6261978454128201
+Pinus_taeda_3 response curves
+Response curve: only BioClim15
+Making features
+makeFeatures: max memory 1908932608, total allocated 436207616, free 221352152, used 214855464, increment 15634800
+Pinus_taeda_3 BioClim15: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 436207616, free 221315960, used 214891656, increment 36192
+linearPredictor: max memory 1908932608, total allocated 436207616, free 221315960, used 214891656, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 436207616, free 221315960, used 214891656, increment 0
+Sequential: max memory 1908932608, total allocated 436207616, free 221315960, used 214891656, increment 0
+Initial loss: 9.223157875686796
+Time since start: 528.975
+240: time = 0.286000 loss = 8.956015
+Resulting gain: 0.26714325679605544
+Pinus_taeda_3 response curves
+Response curve: only BioClim17
+Making features
+makeFeatures: max memory 1908932608, total allocated 436207616, free 204850528, used 231357088, increment 16465432
+Pinus_taeda_3 BioClim17: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 436207616, free 204850528, used 231357088, increment 0
+linearPredictor: max memory 1908932608, total allocated 436207616, free 204850528, used 231357088, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 436207616, free 204850528, used 231357088, increment 0
+Sequential: max memory 1908932608, total allocated 436207616, free 204850528, used 231357088, increment 0
+Initial loss: 9.223157875686796
+220: time = 0.346000 loss = 8.523702
+Resulting gain: 0.6994562954447243
+Pinus_taeda_3 response curves
+Response curve: only BioClim8
+Making features
+makeFeatures: max memory 1908932608, total allocated 436207616, free 175490920, used 260716696, increment 29359608
+Pinus_taeda_3 BioClim8: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 436207616, free 175490920, used 260716696, increment 0
+linearPredictor: max memory 1908932608, total allocated 436207616, free 175490920, used 260716696, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 436207616, free 175490920, used 260716696, increment 0
+Sequential: max memory 1908932608, total allocated 436207616, free 175490920, used 260716696, increment 0
+Initial loss: 9.223157875686796
+Time since start: 530.368
+600: time = 0.889000 loss = 8.670965
+Resulting gain: 0.55219286429611
+Pinus_taeda_3 response curves
+Response curve: only BioClim9
+Making features
+makeFeatures: max memory 1908932608, total allocated 436207616, free 107678328, used 328529288, increment 67812592
+Pinus_taeda_3 BioClim9: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 436207616, free 107678328, used 328529288, increment 0
+linearPredictor: max memory 1908932608, total allocated 436207616, free 107678328, used 328529288, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 436207616, free 107678328, used 328529288, increment 0
+Sequential: max memory 1908932608, total allocated 436207616, free 107678328, used 328529288, increment 0
+Initial loss: 9.223157875686796
+320: time = 0.563000 loss = 8.394251
+Resulting gain: 0.8289065916497815
+Pinus_taeda_3 response curves
+Response curve: only VariableBioClim2
+Making features
+makeFeatures: max memory 1908932608, total allocated 436731904, free 375958704, used 60773200, increment -267756088
+Pinus_taeda_3 VariableBioClim2: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 436731904, free 375958704, used 60773200, increment 0
+linearPredictor: max memory 1908932608, total allocated 436731904, free 375958704, used 60773200, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 436731904, free 375958704, used 60773200, increment 0
+Sequential: max memory 1908932608, total allocated 436731904, free 375958704, used 60773200, increment 0
+Initial loss: 9.223157875686796
+180: time = 0.241000 loss = 9.011312
+Resulting gain: 0.2118459980914036
+Pinus_taeda_3 response curves
+Time since start: 531.427
+Response curve: only VariableBioClim4
+Making features
+makeFeatures: max memory 1908932608, total allocated 436731904, free 367094664, used 69637240, increment 8864040
+Pinus_taeda_3 VariableBioClim4: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 436731904, free 360716960, used 76014944, increment 6377704
+linearPredictor: max memory 1908932608, total allocated 436731904, free 360716960, used 76014944, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 436731904, free 360716960, used 76014944, increment 0
+Sequential: max memory 1908932608, total allocated 436731904, free 360716960, used 76014944, increment 0
+Initial loss: 9.223157875686796
+200: time = 0.784000 loss = 8.269560
+Resulting gain: 0.9535982121186795
+Pinus_taeda_3 response curves
+Time since start: 532.684
+Jackknife: leave BioClim10 out
+Making features
+makeFeatures: max memory 1908932608, total allocated 436731904, free 69550728, used 367181176, increment 291166232
+Pinus_taeda_3 BioClim10: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 436731904, free 63189408, used 373542496, increment 6361320
+linearPredictor: max memory 1908932608, total allocated 436731904, free 63189408, used 373542496, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 436731904, free 63189408, used 373542496, increment 0
+Sequential: max memory 1908932608, total allocated 436731904, free 63189408, used 373542496, increment 0
+Initial loss: 9.223157875686796
+Time since start: 538.217
+1000: time = 5.432000 loss = 7.923075
+Jackknife: leave BioClim15 out
+Making features
+makeFeatures: max memory 1908932608, total allocated 567279616, free 87420920, used 479858696, increment 106316200
+Pinus_taeda_3 BioClim15: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 567279616, free 87251632, used 480027984, increment 169288
+linearPredictor: max memory 1908932608, total allocated 567279616, free 78247336, used 489032280, increment 9004296
+FeaturedSpace: max memory 1908932608, total allocated 567279616, free 78247336, used 489032280, increment 0
+Sequential: max memory 1908932608, total allocated 567279616, free 78247336, used 489032280, increment 0
+Initial loss: 9.223157875686796
+Time since start: 543.629
+980: time = 5.309000 loss = 7.898959
+Jackknife: leave BioClim17 out
+Making features
+makeFeatures: max memory 1908932608, total allocated 553123840, free 451633416, used 101490424, increment -387541856
+Pinus_taeda_3 BioClim17: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 553123840, free 442323920, used 110799920, increment 9309496
+linearPredictor: max memory 1908932608, total allocated 553123840, free 442323920, used 110799920, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 553123840, free 442323920, used 110799920, increment 0
+Sequential: max memory 1908932608, total allocated 553123840, free 442323920, used 110799920, increment 0
+Initial loss: 9.223157875686796
+Time since start: 548.822
+1000: time = 5.089000 loss = 7.906233
+Jackknife: leave BioClim8 out
+Making features
+makeFeatures: max memory 1908932608, total allocated 492306432, free 106210952, used 386095480, increment 275295560
+Pinus_taeda_3 BioClim8: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 492306432, free 98043112, used 394263320, increment 8167840
+linearPredictor: max memory 1908932608, total allocated 492306432, free 98043112, used 394263320, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 492306432, free 98043112, used 394263320, increment 0
+Sequential: max memory 1908932608, total allocated 492306432, free 98043112, used 394263320, increment 0
+Initial loss: 9.223157875686796
+Time since start: 551.751
+540: time = 2.825000 loss = 7.902708
+Jackknife: leave BioClim9 out
+Making features
+makeFeatures: max memory 1908932608, total allocated 439877632, free 321861784, used 118015848, increment -276247472
+Pinus_taeda_3 BioClim9: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 439877632, free 314880632, used 124997000, increment 6981152
+linearPredictor: max memory 1908932608, total allocated 439877632, free 314880632, used 124997000, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 439877632, free 314880632, used 124997000, increment 0
+Sequential: max memory 1908932608, total allocated 439877632, free 314880632, used 124997000, increment 0
+Initial loss: 9.223157875686796
+Time since start: 557.042
+1000: time = 5.193000 loss = 7.889471
+Jackknife: leave VariableBioClim2 out
+Making features
+makeFeatures: max memory 1908932608, total allocated 369098752, free 312254120, used 56844632, increment -68152368
+Pinus_taeda_3 VariableBioClim2: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 369098752, free 306584944, used 62513808, increment 5669176
+linearPredictor: max memory 1908932608, total allocated 369098752, free 306584944, used 62513808, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 369098752, free 306584944, used 62513808, increment 0
+Sequential: max memory 1908932608, total allocated 369098752, free 306584944, used 62513808, increment 0
+Initial loss: 9.223157875686796
+Time since start: 562.497
+1000: time = 5.356000 loss = 7.892597
+Jackknife: leave VariableBioClim4 out
+Making features
+makeFeatures: max memory 1908932608, total allocated 304087040, free 83334712, used 220752328, increment 158238520
+Pinus_taeda_3 VariableBioClim4: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 304087040, free 74612640, used 229474400, increment 8722072
+linearPredictor: max memory 1908932608, total allocated 304087040, free 74612640, used 229474400, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 304087040, free 74612640, used 229474400, increment 0
+Sequential: max memory 1908932608, total allocated 304087040, free 74612640, used 229474400, increment 0
+Initial loss: 9.223157875686796
+Time since start: 565.429
+1000: time = 2.833000 loss = 7.937193
+Jackknife: only BioClim10
+Making features
+makeFeatures: max memory 1908932608, total allocated 289406976, free 72127264, used 217279712, increment -12194688
+Pinus_taeda_3 BioClim10: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 289406976, free 68196416, used 221210560, increment 3930848
+linearPredictor: max memory 1908932608, total allocated 289406976, free 68196416, used 221210560, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 289406976, free 68196416, used 221210560, increment 0
+Sequential: max memory 1908932608, total allocated 289406976, free 68196416, used 221210560, increment 0
+Initial loss: 9.223157875686796
+180: time = 0.248000 loss = 8.596960
+Res.gain: 0.6261978454128201
+Jackknife: only BioClim15
+Making features
+makeFeatures: max memory 1908932608, total allocated 289406976, free 57747952, used 231659024, increment 10448464
+Pinus_taeda_3 BioClim15: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 289406976, free 57747952, used 231659024, increment 0
+linearPredictor: max memory 1908932608, total allocated 289406976, free 57747952, used 231659024, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 289406976, free 57747952, used 231659024, increment 0
+Sequential: max memory 1908932608, total allocated 289406976, free 57747952, used 231659024, increment 0
+Initial loss: 9.223157875686796
+240: time = 0.283000 loss = 8.956015
+Res.gain: 0.26714325679605544
+Jackknife: only BioClim17
+Making features
+makeFeatures: max memory 1908932608, total allocated 289406976, free 50549432, used 238857544, increment 7198520
+Pinus_taeda_3 BioClim17: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 289406976, free 46654360, used 242752616, increment 3895072
+linearPredictor: max memory 1908932608, total allocated 289406976, free 46654360, used 242752616, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 289406976, free 46654360, used 242752616, increment 0
+Sequential: max memory 1908932608, total allocated 289406976, free 46654360, used 242752616, increment 0
+Initial loss: 9.223157875686796
+220: time = 0.338000 loss = 8.523702
+Res.gain: 0.6994562954447243
+Jackknife: only BioClim8
+Making features
+makeFeatures: max memory 1908932608, total allocated 289406976, free 23979744, used 265427232, increment 22674616
+Pinus_taeda_3 BioClim8: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 289406976, free 23979744, used 265427232, increment 0
+linearPredictor: max memory 1908932608, total allocated 289406976, free 23979744, used 265427232, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 289406976, free 23979744, used 265427232, increment 0
+Sequential: max memory 1908932608, total allocated 289406976, free 23979744, used 265427232, increment 0
+Initial loss: 9.223157875686796
+Time since start: 567.259
+600: time = 0.897000 loss = 8.670965
+Res.gain: 0.55219286429611
+Jackknife: only BioClim9
+Making features
+makeFeatures: max memory 1908932608, total allocated 284688384, free 144549896, used 140138488, increment -125288744
+Pinus_taeda_3 BioClim9: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 284688384, free 144549896, used 140138488, increment 0
+linearPredictor: max memory 1908932608, total allocated 284688384, free 144549896, used 140138488, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 284688384, free 144549896, used 140138488, increment 0
+Sequential: max memory 1908932608, total allocated 284688384, free 144549896, used 140138488, increment 0
+Initial loss: 9.223157875686796
+320: time = 0.569000 loss = 8.394251
+Res.gain: 0.8289065916497815
+Jackknife: only VariableBioClim2
+Making features
+makeFeatures: max memory 1908932608, total allocated 284688384, free 102881664, used 181806720, increment 41668232
+Pinus_taeda_3 VariableBioClim2: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 284688384, free 98998352, used 185690032, increment 3883312
+linearPredictor: max memory 1908932608, total allocated 284688384, free 98998352, used 185690032, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 284688384, free 98998352, used 185690032, increment 0
+Sequential: max memory 1908932608, total allocated 284688384, free 98998352, used 185690032, increment 0
+Initial loss: 9.223157875686796
+180: time = 0.243000 loss = 9.011312
+Res.gain: 0.2118459980914036
+Jackknife: only VariableBioClim4
+Making features
+makeFeatures: max memory 1908932608, total allocated 284688384, free 92826104, used 191862280, increment 6172248
+Pinus_taeda_3 VariableBioClim4: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 284688384, free 92745056, used 191943328, increment 81048
+linearPredictor: max memory 1908932608, total allocated 284688384, free 92664008, used 192024376, increment 81048
+FeaturedSpace: max memory 1908932608, total allocated 284688384, free 92664008, used 192024376, increment 0
+Sequential: max memory 1908932608, total allocated 284688384, free 92664008, used 192024376, increment 0
+Initial loss: 9.223157875686796
+Time since start: 568.958
+200: time = 0.832000 loss = 8.269560
+Res.gain: 0.9535982121186795
+getSamples: max memory 1908932608, total allocated 258473984, free 224103584, used 34370400, increment -157653976
+Making features
+makeFeatures: max memory 1908932608, total allocated 258473984, free 219538272, used 38935712, increment 4565312
+Pinus_taeda_4: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 258473984, free 209348168, used 49125816, increment 10190104
+linearPredictor: max memory 1908932608, total allocated 258473984, free 209348168, used 49125816, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 258473984, free 209348168, used 49125816, increment 0
+Sequential: max memory 1908932608, total allocated 258473984, free 209348168, used 49125816, increment 0
+Initial loss: 9.223157875686796
+Time since start: 574.807
+1000: time = 5.666000 loss = 7.819615
+Resulting gain: 1.4035426956411827
+Projecting...
+Writing file /Users/boltece/Desktop/Trial_4/taeda_7common_var/data fixed/Pinus_taeda_4.asc
+Time since start: 654.276
+Writing /Users/boltece/Desktop/Trial_4/taeda_7common_var/data fixed/plots/Pinus_taeda_4.png
+Time since start: 656.664
+Pinus_taeda_4 response curves
+Response curve: only BioClim10
+Making features
+makeFeatures: max memory 1908932608, total allocated 432537600, free 184415280, used 248122320, increment 198996504
+Pinus_taeda_4 BioClim10: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 432537600, free 184415280, used 248122320, increment 0
+linearPredictor: max memory 1908932608, total allocated 432537600, free 184415280, used 248122320, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 432537600, free 184415280, used 248122320, increment 0
+Sequential: max memory 1908932608, total allocated 432537600, free 184415280, used 248122320, increment 0
+Initial loss: 9.223157875686796
+280: time = 0.436000 loss = 8.599831
+Resulting gain: 0.6233267518527956
+Pinus_taeda_4 response curves
+Response curve: only BioClim15
+Making features
+makeFeatures: max memory 1908932608, total allocated 432537600, free 167268496, used 265269104, increment 17146784
+Pinus_taeda_4 BioClim15: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 432537600, free 160753136, used 271784464, increment 6515360
+linearPredictor: max memory 1908932608, total allocated 432537600, free 160753136, used 271784464, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 432537600, free 160753136, used 271784464, increment 0
+Sequential: max memory 1908932608, total allocated 432537600, free 160753136, used 271784464, increment 0
+Initial loss: 9.223157875686796
+Time since start: 657.982
+260: time = 0.337000 loss = 8.989722
+Resulting gain: 0.2334357152083495
+Pinus_taeda_4 response curves
+Response curve: only BioClim17
+Making features
+makeFeatures: max memory 1908932608, total allocated 432537600, free 150400448, used 282137152, increment 10352688
+Pinus_taeda_4 BioClim17: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 432537600, free 150400448, used 282137152, increment 0
+linearPredictor: max memory 1908932608, total allocated 432537600, free 150400448, used 282137152, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 432537600, free 150400448, used 282137152, increment 0
+Sequential: max memory 1908932608, total allocated 432537600, free 150400448, used 282137152, increment 0
+Initial loss: 9.223157875686796
+180: time = 0.274000 loss = 8.519309
+Resulting gain: 0.7038490546895844
+Pinus_taeda_4 response curves
+Response curve: only BioClim8
+Making features
+makeFeatures: max memory 1908932608, total allocated 432537600, free 121968288, used 310569312, increment 28432160
+Pinus_taeda_4 BioClim8: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 432537600, free 121928808, used 310608792, increment 39480
+linearPredictor: max memory 1908932608, total allocated 432537600, free 121928808, used 310608792, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 432537600, free 121928808, used 310608792, increment 0
+Sequential: max memory 1908932608, total allocated 432537600, free 121928808, used 310608792, increment 0
+Initial loss: 9.223157875686796
+Time since start: 659.232
+560: time = 0.817000 loss = 8.607355
+Resulting gain: 0.615802732915121
+Pinus_taeda_4 response curves
+Response curve: only BioClim9
+Making features
+makeFeatures: max memory 1908932608, total allocated 491782144, free 430897480, used 60884664, increment -249724128
+Pinus_taeda_4 BioClim9: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 491782144, free 423466672, used 68315472, increment 7430808
+linearPredictor: max memory 1908932608, total allocated 491782144, free 423466672, used 68315472, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 491782144, free 423466672, used 68315472, increment 0
+Sequential: max memory 1908932608, total allocated 491782144, free 423466672, used 68315472, increment 0
+Initial loss: 9.223157875686796
+400: time = 0.603000 loss = 8.331515
+Resulting gain: 0.8916426458366651
+Pinus_taeda_4 response curves
+Response curve: only VariableBioClim2
+Making features
+makeFeatures: max memory 1908932608, total allocated 491782144, free 373023552, used 118758592, increment 50443120
+Pinus_taeda_4 VariableBioClim2: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 491782144, free 365551712, used 126230432, increment 7471840
+linearPredictor: max memory 1908932608, total allocated 491782144, free 365551712, used 126230432, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 491782144, free 365551712, used 126230432, increment 0
+Sequential: max memory 1908932608, total allocated 491782144, free 365551712, used 126230432, increment 0
+Initial loss: 9.223157875686796
+Time since start: 660.274
+220: time = 0.267000 loss = 9.024917
+Resulting gain: 0.19824058530115884
+Pinus_taeda_4 response curves
+Response curve: only VariableBioClim4
+Making features
+makeFeatures: max memory 1908932608, total allocated 491782144, free 354991728, used 136790416, increment 10559984
+Pinus_taeda_4 VariableBioClim4: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 491782144, free 354773376, used 137008768, increment 218352
+linearPredictor: max memory 1908932608, total allocated 491782144, free 354773376, used 137008768, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 491782144, free 354773376, used 137008768, increment 0
+Sequential: max memory 1908932608, total allocated 491782144, free 354773376, used 137008768, increment 0
+Initial loss: 9.223157875686796
+Time since start: 662.104
+420: time = 1.732000 loss = 8.308007
+Resulting gain: 0.9151513232532746
+Pinus_taeda_4 response curves
+Jackknife: leave BioClim10 out
+Making features
+makeFeatures: max memory 1908932608, total allocated 492306432, free 153771600, used 338534832, increment 201526064
+Pinus_taeda_4 BioClim10: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 492306432, free 146375064, used 345931368, increment 7396536
+linearPredictor: max memory 1908932608, total allocated 492306432, free 146375064, used 345931368, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 492306432, free 146375064, used 345931368, increment 0
+Sequential: max memory 1908932608, total allocated 492306432, free 146375064, used 345931368, increment 0
+Initial loss: 9.223157875686796
+Time since start: 668.323
+1000: time = 5.668000 loss = 7.853229
+Jackknife: leave BioClim15 out
+Making features
+makeFeatures: max memory 1908932608, total allocated 638582784, free 428215648, used 210367136, increment -135564232
+Pinus_taeda_4 BioClim15: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 638582784, free 417782800, used 220799984, increment 10432848
+linearPredictor: max memory 1908932608, total allocated 638582784, free 417782800, used 220799984, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 638582784, free 417782800, used 220799984, increment 0
+Sequential: max memory 1908932608, total allocated 638582784, free 417782800, used 220799984, increment 0
+Initial loss: 9.223157875686796
+Time since start: 673.898
+1000: time = 5.474000 loss = 7.844295
+Jackknife: leave BioClim17 out
+Making features
+makeFeatures: max memory 1908932608, total allocated 550502400, free 227808976, used 322693424, increment 101893440
+Pinus_taeda_4 BioClim17: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 550502400, free 218662400, used 331840000, increment 9146576
+linearPredictor: max memory 1908932608, total allocated 550502400, free 218662400, used 331840000, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 550502400, free 218662400, used 331840000, increment 0
+Sequential: max memory 1908932608, total allocated 550502400, free 218662400, used 331840000, increment 0
+Initial loss: 9.223157875686796
+Time since start: 679.275
+1000: time = 5.274000 loss = 7.871065
+Jackknife: leave BioClim8 out
+Making features
+makeFeatures: max memory 1908932608, total allocated 472383488, free 253609512, used 218773976, increment -113066024
+Pinus_taeda_4 BioClim8: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 472383488, free 245936240, used 226447248, increment 7673272
+linearPredictor: max memory 1908932608, total allocated 472383488, free 245936240, used 226447248, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 472383488, free 245936240, used 226447248, increment 0
+Sequential: max memory 1908932608, total allocated 472383488, free 245936240, used 226447248, increment 0
+Initial loss: 9.223157875686796
+Time since start: 682.687
+620: time = 3.290000 loss = 7.866618
+Jackknife: leave BioClim9 out
+Making features
+makeFeatures: max memory 1908932608, total allocated 422576128, free 289846240, used 132729888, increment -93717360
+Pinus_taeda_4 BioClim9: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 422576128, free 276427848, used 146148280, increment 13418392
+linearPredictor: max memory 1908932608, total allocated 422576128, free 276427848, used 146148280, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 422576128, free 276427848, used 146148280, increment 0
+Sequential: max memory 1908932608, total allocated 422576128, free 276427848, used 146148280, increment 0
+Initial loss: 9.223157875686796
+Time since start: 688.039
+1000: time = 5.247000 loss = 7.851921
+Jackknife: leave VariableBioClim2 out
+Making features
+makeFeatures: max memory 1908932608, total allocated 355467264, free 214747392, used 140719872, increment -5428408
+Pinus_taeda_4 VariableBioClim2: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 355467264, free 203996360, used 151470904, increment 10751032
+linearPredictor: max memory 1908932608, total allocated 355467264, free 203996360, used 151470904, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 355467264, free 203996360, used 151470904, increment 0
+Sequential: max memory 1908932608, total allocated 355467264, free 203996360, used 151470904, increment 0
+Initial loss: 9.223157875686796
+Time since start: 693.548
+1000: time = 5.404000 loss = 7.839204
+Jackknife: leave VariableBioClim4 out
+Making features
+makeFeatures: max memory 1908932608, total allocated 285212672, free 115020296, used 170192376, increment 18721472
+Pinus_taeda_4 VariableBioClim4: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 285212672, free 110974568, used 174238104, increment 4045728
+linearPredictor: max memory 1908932608, total allocated 285212672, free 110974568, used 174238104, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 285212672, free 110974568, used 174238104, increment 0
+Sequential: max memory 1908932608, total allocated 285212672, free 110974568, used 174238104, increment 0
+Initial loss: 9.223157875686796
+Time since start: 696.659
+1000: time = 3.014000 loss = 7.892216
+Jackknife: only BioClim10
+Making features
+makeFeatures: max memory 1908932608, total allocated 272105472, free 71174728, used 200930744, increment 26692640
+Pinus_taeda_4 BioClim10: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 272105472, free 67460520, used 204644952, increment 3714208
+linearPredictor: max memory 1908932608, total allocated 272105472, free 67460520, used 204644952, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 272105472, free 67460520, used 204644952, increment 0
+Sequential: max memory 1908932608, total allocated 272105472, free 67460520, used 204644952, increment 0
+Initial loss: 9.223157875686796
+280: time = 0.497000 loss = 8.599831
+Res.gain: 0.6233267518527956
+Jackknife: only BioClim15
+Making features
+makeFeatures: max memory 1908932608, total allocated 272105472, free 52420592, used 219684880, increment 15039928
+Pinus_taeda_4 BioClim15: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 272105472, free 52420592, used 219684880, increment 0
+linearPredictor: max memory 1908932608, total allocated 272105472, free 52420592, used 219684880, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 272105472, free 52420592, used 219684880, increment 0
+Sequential: max memory 1908932608, total allocated 272105472, free 52420592, used 219684880, increment 0
+Initial loss: 9.223157875686796
+260: time = 0.334000 loss = 8.989722
+Res.gain: 0.2334357152083495
+Jackknife: only BioClim17
+Making features
+makeFeatures: max memory 1908932608, total allocated 272105472, free 41448640, used 230656832, increment 10971952
+Pinus_taeda_4 BioClim17: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 272105472, free 41340944, used 230764528, increment 107696
+linearPredictor: max memory 1908932608, total allocated 272105472, free 41340944, used 230764528, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 272105472, free 41340944, used 230764528, increment 0
+Sequential: max memory 1908932608, total allocated 272105472, free 41340944, used 230764528, increment 0
+Initial loss: 9.223157875686796
+Time since start: 697.811
+180: time = 0.271000 loss = 8.519309
+Res.gain: 0.7038490546895844
+Jackknife: only BioClim8
+Making features
+makeFeatures: max memory 1908932608, total allocated 272105472, free 20821376, used 251284096, increment 20519568
+Pinus_taeda_4 BioClim8: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 272105472, free 20821376, used 251284096, increment 0
+linearPredictor: max memory 1908932608, total allocated 272105472, free 20821376, used 251284096, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 272105472, free 20821376, used 251284096, increment 0
+Sequential: max memory 1908932608, total allocated 272105472, free 20821376, used 251284096, increment 0
+Initial loss: 9.223157875686796
+560: time = 0.814000 loss = 8.607355
+Res.gain: 0.615802732915121
+Jackknife: only BioClim9
+Making features
+makeFeatures: max memory 1908932608, total allocated 268959744, free 131907880, used 137051864, increment -114232232
+Pinus_taeda_4 BioClim9: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 268959744, free 128576520, used 140383224, increment 3331360
+linearPredictor: max memory 1908932608, total allocated 268959744, free 128576520, used 140383224, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 268959744, free 128576520, used 140383224, increment 0
+Sequential: max memory 1908932608, total allocated 268959744, free 128576520, used 140383224, increment 0
+Initial loss: 9.223157875686796
+Time since start: 699.258
+400: time = 0.598000 loss = 8.331515
+Res.gain: 0.8916426458366651
+Jackknife: only VariableBioClim2
+Making features
+makeFeatures: max memory 1908932608, total allocated 268959744, free 76141624, used 192818120, increment 52434896
+Pinus_taeda_4 VariableBioClim2: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 268959744, free 76141624, used 192818120, increment 0
+linearPredictor: max memory 1908932608, total allocated 268959744, free 76141624, used 192818120, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 268959744, free 76141624, used 192818120, increment 0
+Sequential: max memory 1908932608, total allocated 268959744, free 76141624, used 192818120, increment 0
+Initial loss: 9.223157875686796
+220: time = 0.268000 loss = 9.024917
+Res.gain: 0.19824058530115884
+Jackknife: only VariableBioClim4
+Making features
+makeFeatures: max memory 1908932608, total allocated 268959744, free 66273264, used 202686480, increment 9868360
+Pinus_taeda_4 VariableBioClim4: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 268959744, free 66273264, used 202686480, increment 0
+linearPredictor: max memory 1908932608, total allocated 268959744, free 66273264, used 202686480, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 268959744, free 66273264, used 202686480, increment 0
+Sequential: max memory 1908932608, total allocated 268959744, free 66273264, used 202686480, increment 0
+Initial loss: 9.223157875686796
+Time since start: 701.267
+420: time = 1.707000 loss = 8.308007
+Res.gain: 0.9151513232532746
+getSamples: max memory 1908932608, total allocated 259522560, free 219955224, used 39567336, increment -163119144
+Making features
+makeFeatures: max memory 1908932608, total allocated 259522560, free 215042032, used 44480528, increment 4913192
+Pinus_taeda_5: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 259522560, free 207892840, used 51629720, increment 7149192
+linearPredictor: max memory 1908932608, total allocated 259522560, free 207892840, used 51629720, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 259522560, free 207892840, used 51629720, increment 0
+Sequential: max memory 1908932608, total allocated 259522560, free 207892840, used 51629720, increment 0
+Initial loss: 9.223157875686796
+Time since start: 707.374
+1000: time = 5.927000 loss = 7.815550
+Resulting gain: 1.4076075265022423
+Projecting...
+Writing file /Users/boltece/Desktop/Trial_4/taeda_7common_var/data fixed/Pinus_taeda_5.asc
+Time since start: 783.091
+Writing /Users/boltece/Desktop/Trial_4/taeda_7common_var/data fixed/plots/Pinus_taeda_5.png
+Time since start: 785.485
+Pinus_taeda_5 response curves
+Response curve: only BioClim10
+Making features
+makeFeatures: max memory 1908932608, total allocated 548405248, free 422696400, used 125708848, increment 74079128
+Pinus_taeda_5 BioClim10: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 548405248, free 422592584, used 125812664, increment 103816
+linearPredictor: max memory 1908932608, total allocated 548405248, free 422592584, used 125812664, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 548405248, free 422592584, used 125812664, increment 0
+Sequential: max memory 1908932608, total allocated 548405248, free 422592584, used 125812664, increment 0
+Initial loss: 9.223157875686796
+220: time = 0.316000 loss = 8.616988
+Resulting gain: 0.6061695989549136
+Pinus_taeda_5 response curves
+Response curve: only BioClim15
+Making features
+makeFeatures: max memory 1908932608, total allocated 548405248, free 410683808, used 137721440, increment 11908776
+Pinus_taeda_5 BioClim15: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 548405248, free 410683808, used 137721440, increment 0
+linearPredictor: max memory 1908932608, total allocated 548405248, free 410683808, used 137721440, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 548405248, free 410683808, used 137721440, increment 0
+Sequential: max memory 1908932608, total allocated 548405248, free 410683808, used 137721440, increment 0
+Initial loss: 9.223157875686796
+Time since start: 786.632
+220: time = 0.273000 loss = 9.012469
+Resulting gain: 0.2106886356104276
+Pinus_taeda_5 response curves
+Response curve: only BioClim17
+Making features
+makeFeatures: max memory 1908932608, total allocated 548405248, free 398813800, used 149591448, increment 11870008
+Pinus_taeda_5 BioClim17: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 548405248, free 390039440, used 158365808, increment 8774360
+linearPredictor: max memory 1908932608, total allocated 548405248, free 390039440, used 158365808, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 548405248, free 390039440, used 158365808, increment 0
+Sequential: max memory 1908932608, total allocated 548405248, free 390039440, used 158365808, increment 0
+Initial loss: 9.223157875686796
+300: time = 0.495000 loss = 8.596055
+Resulting gain: 0.6271030757472378
+Pinus_taeda_5 response curves
+Response curve: only BioClim8
+Making features
+makeFeatures: max memory 1908932608, total allocated 548405248, free 359465976, used 188939272, increment 30573464
+Pinus_taeda_5 BioClim8: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 548405248, free 359397904, used 189007344, increment 68072
+linearPredictor: max memory 1908932608, total allocated 548405248, free 359397904, used 189007344, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 548405248, free 359397904, used 189007344, increment 0
+Sequential: max memory 1908932608, total allocated 548405248, free 359397904, used 189007344, increment 0
+Initial loss: 9.223157875686796
+Time since start: 788.144
+600: time = 0.861000 loss = 8.617416
+Resulting gain: 0.6057422837682935
+Pinus_taeda_5 response curves
+Response curve: only BioClim9
+Making features
+makeFeatures: max memory 1908932608, total allocated 548405248, free 289296688, used 259108560, increment 70101216
+Pinus_taeda_5 BioClim9: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 548405248, free 280522320, used 267882928, increment 8774368
+linearPredictor: max memory 1908932608, total allocated 548405248, free 280522320, used 267882928, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 548405248, free 280522320, used 267882928, increment 0
+Sequential: max memory 1908932608, total allocated 548405248, free 280522320, used 267882928, increment 0
+Initial loss: 9.223157875686796
+400: time = 0.595000 loss = 8.385195
+Resulting gain: 0.8379629513659754
+Pinus_taeda_5 response curves
+Response curve: only VariableBioClim2
+Making features
+makeFeatures: max memory 1908932608, total allocated 548405248, free 230938840, used 317466408, increment 49583480
+Pinus_taeda_5 VariableBioClim2: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 548405248, free 222232504, used 326172744, increment 8706336
+linearPredictor: max memory 1908932608, total allocated 548405248, free 222232504, used 326172744, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 548405248, free 222232504, used 326172744, increment 0
+Sequential: max memory 1908932608, total allocated 548405248, free 222232504, used 326172744, increment 0
+Initial loss: 9.223157875686796
+Time since start: 789.378
+320: time = 0.468000 loss = 9.121206
+Resulting gain: 0.1019522664954362
+Pinus_taeda_5 response curves
+Response curve: only VariableBioClim4
+Making features
+makeFeatures: max memory 1908932608, total allocated 548405248, free 209214800, used 339190448, increment 13017704
+Pinus_taeda_5 VariableBioClim4: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 548405248, free 209214800, used 339190448, increment 0
+linearPredictor: max memory 1908932608, total allocated 548405248, free 209214800, used 339190448, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 548405248, free 209214800, used 339190448, increment 0
+Sequential: max memory 1908932608, total allocated 548405248, free 209214800, used 339190448, increment 0
+Initial loss: 9.223157875686796
+Time since start: 790.518
+260: time = 1.052000 loss = 8.306662
+Resulting gain: 0.9164961117104333
+Pinus_taeda_5 response curves
+Jackknife: leave BioClim10 out
+Making features
+makeFeatures: max memory 1908932608, total allocated 548929536, free 262694520, used 286235016, increment -52955432
+Pinus_taeda_5 BioClim10: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 548929536, free 253886920, used 295042616, increment 8807600
+linearPredictor: max memory 1908932608, total allocated 548929536, free 253886920, used 295042616, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 548929536, free 253886920, used 295042616, increment 0
+Sequential: max memory 1908932608, total allocated 548929536, free 253886920, used 295042616, increment 0
+Initial loss: 9.223157875686796
+Time since start: 796.454
+1000: time = 5.451000 loss = 7.869954
+Jackknife: leave BioClim15 out
+Making features
+makeFeatures: max memory 1908932608, total allocated 702545920, free 197099480, used 505446440, increment 210403824
+Pinus_taeda_5 BioClim15: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 702545920, free 197099480, used 505446440, increment 0
+linearPredictor: max memory 1908932608, total allocated 702545920, free 197099480, used 505446440, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 702545920, free 197099480, used 505446440, increment 0
+Sequential: max memory 1908932608, total allocated 702545920, free 197099480, used 505446440, increment 0
+Initial loss: 9.223157875686796
+Time since start: 801.897
+1000: time = 5.342000 loss = 7.842128
+Jackknife: leave BioClim17 out
+Making features
+makeFeatures: max memory 1908932608, total allocated 641204224, free 199951176, used 441253048, increment -64193392
+Pinus_taeda_5 BioClim17: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 641204224, free 199777048, used 441427176, increment 174128
+linearPredictor: max memory 1908932608, total allocated 641204224, free 199777048, used 441427176, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 641204224, free 199777048, used 441427176, increment 0
+Sequential: max memory 1908932608, total allocated 641204224, free 199777048, used 441427176, increment 0
+Initial loss: 9.223157875686796
+Time since start: 807.243
+1000: time = 5.247000 loss = 7.870420
+Jackknife: leave BioClim8 out
+Making features
+makeFeatures: max memory 1908932608, total allocated 561512448, free 120962576, used 440549872, increment -877304
+Pinus_taeda_5 BioClim8: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 561512448, free 111664200, used 449848248, increment 9298376
+linearPredictor: max memory 1908932608, total allocated 561512448, free 111664200, used 449848248, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 561512448, free 111664200, used 449848248, increment 0
+Sequential: max memory 1908932608, total allocated 561512448, free 111664200, used 449848248, increment 0
+Initial loss: 9.223157875686796
+Time since start: 812.492
+1000: time = 5.148000 loss = 7.862466
+Jackknife: leave BioClim9 out
+Making features
+makeFeatures: max memory 1908932608, total allocated 481296384, free 175409464, used 305886920, increment -143961328
+Pinus_taeda_5 BioClim9: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 481296384, free 167682800, used 313613584, increment 7726664
+linearPredictor: max memory 1908932608, total allocated 481296384, free 167682800, used 313613584, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 481296384, free 167682800, used 313613584, increment 0
+Sequential: max memory 1908932608, total allocated 481296384, free 167682800, used 313613584, increment 0
+Initial loss: 9.223157875686796
+Time since start: 817.788
+1000: time = 5.198000 loss = 7.830334
+Jackknife: leave VariableBioClim2 out
+Making features
+makeFeatures: max memory 1908932608, total allocated 401604608, free 281135848, used 120468760, increment -193144824
+Pinus_taeda_5 VariableBioClim2: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 401604608, free 274966424, used 126638184, increment 6169424
+linearPredictor: max memory 1908932608, total allocated 401604608, free 274966424, used 126638184, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 401604608, free 274966424, used 126638184, increment 0
+Sequential: max memory 1908932608, total allocated 401604608, free 274966424, used 126638184, increment 0
+Initial loss: 9.223157875686796
+Time since start: 823.262
+1000: time = 5.374000 loss = 7.899406
+Jackknife: leave VariableBioClim4 out
+Making features
+makeFeatures: max memory 1908932608, total allocated 327155712, free 250721248, used 76434464, increment -50203720
+Pinus_taeda_5 VariableBioClim4: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 327155712, free 245914936, used 81240776, increment 4806312
+linearPredictor: max memory 1908932608, total allocated 327155712, free 245914936, used 81240776, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 327155712, free 245914936, used 81240776, increment 0
+Sequential: max memory 1908932608, total allocated 327155712, free 245914936, used 81240776, increment 0
+Initial loss: 9.223157875686796
+Time since start: 826.297
+1000: time = 2.938000 loss = 7.940199
+Jackknife: only BioClim10
+Making features
+makeFeatures: max memory 1908932608, total allocated 325058560, free 65876200, used 259182360, increment 177941584
+Pinus_taeda_5 BioClim10: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 325058560, free 65876200, used 259182360, increment 0
+linearPredictor: max memory 1908932608, total allocated 325058560, free 65876200, used 259182360, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 325058560, free 65876200, used 259182360, increment 0
+Sequential: max memory 1908932608, total allocated 325058560, free 65876200, used 259182360, increment 0
+Initial loss: 9.223157875686796
+220: time = 0.329000 loss = 8.616988
+Res.gain: 0.6061695989549136
+Jackknife: only BioClim15
+Making features
+makeFeatures: max memory 1908932608, total allocated 325058560, free 53701584, used 271356976, increment 12174616
+Pinus_taeda_5 BioClim15: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 325058560, free 53506968, used 271551592, increment 194616
+linearPredictor: max memory 1908932608, total allocated 325058560, free 53425920, used 271632640, increment 81048
+FeaturedSpace: max memory 1908932608, total allocated 325058560, free 53425920, used 271632640, increment 0
+Sequential: max memory 1908932608, total allocated 325058560, free 53425920, used 271632640, increment 0
+Initial loss: 9.223157875686796
+220: time = 0.279000 loss = 9.012469
+Res.gain: 0.2106886356104276
+Jackknife: only BioClim17
+Making features
+makeFeatures: max memory 1908932608, total allocated 325058560, free 45812904, used 279245656, increment 7613016
+Pinus_taeda_5 BioClim17: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 325058560, free 41849480, used 283209080, increment 3963424
+linearPredictor: max memory 1908932608, total allocated 325058560, free 41849480, used 283209080, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 325058560, free 41849480, used 283209080, increment 0
+Sequential: max memory 1908932608, total allocated 325058560, free 41849480, used 283209080, increment 0
+Initial loss: 9.223157875686796
+Time since start: 827.474
+300: time = 0.520000 loss = 8.596055
+Res.gain: 0.6271030757472378
+Jackknife: only BioClim8
+Making features
+makeFeatures: max memory 1908932608, total allocated 313524224, free 227278104, used 86246120, increment -196962960
+Pinus_taeda_5 BioClim8: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 313524224, free 227278104, used 86246120, increment 0
+linearPredictor: max memory 1908932608, total allocated 313524224, free 227278104, used 86246120, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 313524224, free 227278104, used 86246120, increment 0
+Sequential: max memory 1908932608, total allocated 313524224, free 227278104, used 86246120, increment 0
+Initial loss: 9.223157875686796
+600: time = 0.869000 loss = 8.617416
+Res.gain: 0.6057422837682935
+Jackknife: only BioClim9
+Making features
+makeFeatures: max memory 1908932608, total allocated 313524224, free 158714152, used 154810072, increment 68563952
+Pinus_taeda_5 BioClim9: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 313524224, free 158714152, used 154810072, increment 0
+linearPredictor: max memory 1908932608, total allocated 313524224, free 158714152, used 154810072, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 313524224, free 158714152, used 154810072, increment 0
+Sequential: max memory 1908932608, total allocated 313524224, free 158714152, used 154810072, increment 0
+Initial loss: 9.223157875686796
+Time since start: 828.974
+400: time = 0.597000 loss = 8.385195
+Res.gain: 0.8379629513659754
+Jackknife: only VariableBioClim2
+Making features
+makeFeatures: max memory 1908932608, total allocated 313524224, free 106229120, used 207295104, increment 52485032
+Pinus_taeda_5 VariableBioClim2: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 313524224, free 102000848, used 211523376, increment 4228272
+linearPredictor: max memory 1908932608, total allocated 313524224, free 102000848, used 211523376, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 313524224, free 102000848, used 211523376, increment 0
+Sequential: max memory 1908932608, total allocated 313524224, free 102000848, used 211523376, increment 0
+Initial loss: 9.223157875686796
+320: time = 0.467000 loss = 9.121206
+Res.gain: 0.1019522664954362
+Jackknife: only VariableBioClim4
+Making features
+makeFeatures: max memory 1908932608, total allocated 313524224, free 89182544, used 224341680, increment 12818304
+Pinus_taeda_5 VariableBioClim4: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 313524224, free 89182544, used 224341680, increment 0
+linearPredictor: max memory 1908932608, total allocated 313524224, free 89182544, used 224341680, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 313524224, free 89182544, used 224341680, increment 0
+Sequential: max memory 1908932608, total allocated 313524224, free 89182544, used 224341680, increment 0
+Initial loss: 9.223157875686796
+Time since start: 830.553
+260: time = 1.077000 loss = 8.306662
+Res.gain: 0.9164961117104333
+getSamples: max memory 1908932608, total allocated 289931264, free 150535272, used 139395992, increment -84945688
+Making features
+makeFeatures: max memory 1908932608, total allocated 289931264, free 149254160, used 140677104, increment 1281112
+Pinus_taeda_6: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 289931264, free 137506560, used 152424704, increment 11747600
+linearPredictor: max memory 1908932608, total allocated 289931264, free 137506560, used 152424704, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 289931264, free 137506560, used 152424704, increment 0
+Sequential: max memory 1908932608, total allocated 289931264, free 137506560, used 152424704, increment 0
+Initial loss: 9.223157875686796
+Time since start: 836.687
+1000: time = 5.932000 loss = 7.856470
+Resulting gain: 1.3666878644331346
+Projecting...
+Writing file /Users/boltece/Desktop/Trial_4/taeda_7common_var/data fixed/Pinus_taeda_6.asc
+Time since start: 915.056
+Writing /Users/boltece/Desktop/Trial_4/taeda_7common_var/data fixed/plots/Pinus_taeda_6.png
+Time since start: 917.517
+Pinus_taeda_6 response curves
+Response curve: only BioClim10
+Making features
+makeFeatures: max memory 1908932608, total allocated 490209280, free 169124072, used 321085208, increment 168660504
+Pinus_taeda_6 BioClim10: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 490209280, free 169071024, used 321138256, increment 53048
+linearPredictor: max memory 1908932608, total allocated 490209280, free 169071024, used 321138256, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 490209280, free 169071024, used 321138256, increment 0
+Sequential: max memory 1908932608, total allocated 490209280, free 169071024, used 321138256, increment 0
+Initial loss: 9.223157875686796
+260: time = 0.387000 loss = 8.621052
+Resulting gain: 0.6021057209547092
+Pinus_taeda_6 response curves
+Response curve: only BioClim15
+Making features
+makeFeatures: max memory 1908932608, total allocated 490209280, free 149253856, used 340955424, increment 19817168
+Pinus_taeda_6 BioClim15: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 490209280, free 149253856, used 340955424, increment 0
+linearPredictor: max memory 1908932608, total allocated 490209280, free 149253856, used 340955424, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 490209280, free 149253856, used 340955424, increment 0
+Sequential: max memory 1908932608, total allocated 490209280, free 149253856, used 340955424, increment 0
+Initial loss: 9.223157875686796
+Time since start: 918.758
+200: time = 0.274000 loss = 9.002635
+Resulting gain: 0.22052287552030236
+Pinus_taeda_6 response curves
+Response curve: only BioClim17
+Making features
+makeFeatures: max memory 1908932608, total allocated 490209280, free 138749200, used 351460080, increment 10504656
+Pinus_taeda_6 BioClim17: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 490209280, free 138749200, used 351460080, increment 0
+linearPredictor: max memory 1908932608, total allocated 490209280, free 138749200, used 351460080, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 490209280, free 138749200, used 351460080, increment 0
+Sequential: max memory 1908932608, total allocated 490209280, free 138749200, used 351460080, increment 0
+Initial loss: 9.223157875686796
+380: time = 0.557000 loss = 8.561983
+Resulting gain: 0.6611750054965082
+Pinus_taeda_6 response curves
+Response curve: only BioClim8
+Making features
+makeFeatures: max memory 1908932608, total allocated 490209280, free 88145688, used 402063592, increment 50603512
+Pinus_taeda_6 BioClim8: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 490209280, free 88145688, used 402063592, increment 0
+linearPredictor: max memory 1908932608, total allocated 490209280, free 88145688, used 402063592, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 490209280, free 88145688, used 402063592, increment 0
+Sequential: max memory 1908932608, total allocated 490209280, free 88145688, used 402063592, increment 0
+Initial loss: 9.223157875686796
+Time since start: 920.273
+520: time = 0.793000 loss = 8.709619
+Resulting gain: 0.5135391452450957
+Pinus_taeda_6 response curves
+Response curve: only BioClim9
+Making features
+makeFeatures: max memory 1908932608, total allocated 558891008, free 466531824, used 92359184, increment -309704408
+Pinus_taeda_6 BioClim9: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 558891008, free 466531824, used 92359184, increment 0
+linearPredictor: max memory 1908932608, total allocated 558891008, free 466531824, used 92359184, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 558891008, free 466531824, used 92359184, increment 0
+Sequential: max memory 1908932608, total allocated 558891008, free 466531824, used 92359184, increment 0
+Initial loss: 9.223157875686796
+220: time = 0.413000 loss = 8.444526
+Resulting gain: 0.778632314540392
+Pinus_taeda_6 response curves
+Response curve: only VariableBioClim2
+Making features
+makeFeatures: max memory 1908932608, total allocated 558891008, free 427032344, used 131858664, increment 39499480
+Pinus_taeda_6 VariableBioClim2: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 558891008, free 427032344, used 131858664, increment 0
+linearPredictor: max memory 1908932608, total allocated 558891008, free 427032344, used 131858664, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 558891008, free 427032344, used 131858664, increment 0
+Sequential: max memory 1908932608, total allocated 558891008, free 427032344, used 131858664, increment 0
+Initial loss: 9.223157875686796
+180: time = 0.272000 loss = 9.132145
+Resulting gain: 0.0910133132050106
+Pinus_taeda_6 response curves
+Response curve: only VariableBioClim4
+Making features
+makeFeatures: max memory 1908932608, total allocated 558891008, free 414938552, used 143952456, increment 12093792
+Pinus_taeda_6 VariableBioClim4: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 558891008, free 414733672, used 144157336, increment 204880
+linearPredictor: max memory 1908932608, total allocated 558891008, free 414733672, used 144157336, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 558891008, free 414733672, used 144157336, increment 0
+Sequential: max memory 1908932608, total allocated 558891008, free 414733672, used 144157336, increment 0
+Initial loss: 9.223157875686796
+Time since start: 924.251
+740: time = 3.010000 loss = 8.282793
+Resulting gain: 0.9403653376152885
+Pinus_taeda_6 response curves
+Jackknife: leave BioClim10 out
+Making features
+makeFeatures: max memory 1908932608, total allocated 634912768, free 382896944, used 252015824, increment 107858488
+Pinus_taeda_6 BioClim10: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 634912768, free 372671000, used 262241768, increment 10225944
+linearPredictor: max memory 1908932608, total allocated 634912768, free 372671000, used 262241768, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 634912768, free 372671000, used 262241768, increment 0
+Sequential: max memory 1908932608, total allocated 634912768, free 372671000, used 262241768, increment 0
+Initial loss: 9.223157875686796
+Time since start: 930.315
+1000: time = 5.514000 loss = 7.905737
+Jackknife: leave BioClim15 out
+Making features
+makeFeatures: max memory 1908932608, total allocated 687341568, free 425665592, used 261675976, increment -565792
+Pinus_taeda_6 BioClim15: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 687341568, free 414090088, used 273251480, increment 11575504
+linearPredictor: max memory 1908932608, total allocated 687341568, free 414090088, used 273251480, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 687341568, free 414090088, used 273251480, increment 0
+Sequential: max memory 1908932608, total allocated 687341568, free 414090088, used 273251480, increment 0
+Initial loss: 9.223157875686796
+Time since start: 936.051
+1000: time = 5.632000 loss = 7.871548
+Jackknife: leave BioClim17 out
+Making features
+makeFeatures: max memory 1908932608, total allocated 600834048, free 374424920, used 226409128, increment -46842352
+Pinus_taeda_6 BioClim17: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 600834048, free 364171976, used 236662072, increment 10252944
+linearPredictor: max memory 1908932608, total allocated 600834048, free 364171976, used 236662072, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 600834048, free 364171976, used 236662072, increment 0
+Sequential: max memory 1908932608, total allocated 600834048, free 364171976, used 236662072, increment 0
+Initial loss: 9.223157875686796
+Time since start: 941.371
+1000: time = 5.217000 loss = 7.898560
+Jackknife: leave BioClim8 out
+Making features
+makeFeatures: max memory 1908932608, total allocated 534249472, free 129890816, used 404358656, increment 167696584
+Pinus_taeda_6 BioClim8: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 534249472, free 121149248, used 413100224, increment 8741568
+linearPredictor: max memory 1908932608, total allocated 534249472, free 121149248, used 413100224, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 534249472, free 121149248, used 413100224, increment 0
+Sequential: max memory 1908932608, total allocated 534249472, free 121149248, used 413100224, increment 0
+Initial loss: 9.223157875686796
+Time since start: 946.772
+1000: time = 5.297000 loss = 7.909695
+Jackknife: leave BioClim9 out
+Making features
+makeFeatures: max memory 1908932608, total allocated 459800576, free 79372760, used 380427816, increment -32672408
+Pinus_taeda_6 BioClim9: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 459800576, free 71952960, used 387847616, increment 7419800
+linearPredictor: max memory 1908932608, total allocated 459800576, free 71952960, used 387847616, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 459800576, free 71952960, used 387847616, increment 0
+Sequential: max memory 1908932608, total allocated 459800576, free 71952960, used 387847616, increment 0
+Initial loss: 9.223157875686796
+Time since start: 952.187
+1000: time = 5.313000 loss = 7.880959
+Jackknife: leave VariableBioClim2 out
+Making features
+makeFeatures: max memory 1908932608, total allocated 386400256, free 143888008, used 242512248, increment -145335368
+Pinus_taeda_6 VariableBioClim2: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 386400256, free 132110984, used 254289272, increment 11777024
+linearPredictor: max memory 1908932608, total allocated 386400256, free 132110984, used 254289272, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 386400256, free 132110984, used 254289272, increment 0
+Sequential: max memory 1908932608, total allocated 386400256, free 132110984, used 254289272, increment 0
+Initial loss: 9.223157875686796
+Time since start: 957.717
+1000: time = 5.425000 loss = 7.920173
+Jackknife: leave VariableBioClim4 out
+Making features
+makeFeatures: max memory 1908932608, total allocated 308281344, free 183506120, used 124775224, increment -129514048
+Pinus_taeda_6 VariableBioClim4: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 308281344, free 179058808, used 129222536, increment 4447312
+linearPredictor: max memory 1908932608, total allocated 308281344, free 179058808, used 129222536, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 308281344, free 179058808, used 129222536, increment 0
+Sequential: max memory 1908932608, total allocated 308281344, free 179058808, used 129222536, increment 0
+Initial loss: 9.223157875686796
+Time since start: 960.775
+1000: time = 2.963000 loss = 7.995014
+Jackknife: only BioClim10
+Making features
+makeFeatures: max memory 1908932608, total allocated 294125568, free 169697752, used 124427816, increment -4794720
+Pinus_taeda_6 BioClim10: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 294125568, free 169697752, used 124427816, increment 0
+linearPredictor: max memory 1908932608, total allocated 294125568, free 169697752, used 124427816, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 294125568, free 169697752, used 124427816, increment 0
+Sequential: max memory 1908932608, total allocated 294125568, free 169697752, used 124427816, increment 0
+Initial loss: 9.223157875686796
+260: time = 0.382000 loss = 8.621052
+Res.gain: 0.6021057209547092
+Jackknife: only BioClim15
+Making features
+makeFeatures: max memory 1908932608, total allocated 294125568, free 154174872, used 139950696, increment 15522880
+Pinus_taeda_6 BioClim15: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 294125568, free 154048336, used 140077232, increment 126536
+linearPredictor: max memory 1908932608, total allocated 294125568, free 154048336, used 140077232, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 294125568, free 154048336, used 140077232, increment 0
+Sequential: max memory 1908932608, total allocated 294125568, free 154048336, used 140077232, increment 0
+Initial loss: 9.223157875686796
+200: time = 0.270000 loss = 9.002635
+Res.gain: 0.22052287552030236
+Jackknife: only BioClim17
+Making features
+makeFeatures: max memory 1908932608, total allocated 294125568, free 147269008, used 146856560, increment 6779328
+Pinus_taeda_6 BioClim17: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 294125568, free 143337272, used 150788296, increment 3931736
+linearPredictor: max memory 1908932608, total allocated 294125568, free 143337272, used 150788296, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 294125568, free 143337272, used 150788296, increment 0
+Sequential: max memory 1908932608, total allocated 294125568, free 143337272, used 150788296, increment 0
+Initial loss: 9.223157875686796
+Time since start: 962.026
+380: time = 0.551000 loss = 8.561983
+Res.gain: 0.6611750054965082
+Jackknife: only BioClim8
+Making features
+makeFeatures: max memory 1908932608, total allocated 294125568, free 102807128, used 191318440, increment 40530144
+Pinus_taeda_6 BioClim8: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 294125568, free 102807128, used 191318440, increment 0
+linearPredictor: max memory 1908932608, total allocated 294125568, free 102807128, used 191318440, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 294125568, free 102807128, used 191318440, increment 0
+Sequential: max memory 1908932608, total allocated 294125568, free 102807128, used 191318440, increment 0
+Initial loss: 9.223157875686796
+520: time = 0.757000 loss = 8.709619
+Res.gain: 0.5135391452450957
+Jackknife: only BioClim9
+Making features
+makeFeatures: max memory 1908932608, total allocated 294125568, free 44291712, used 249833856, increment 58515416
+Pinus_taeda_6 BioClim9: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 294125568, free 44291712, used 249833856, increment 0
+linearPredictor: max memory 1908932608, total allocated 294125568, free 44291712, used 249833856, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 294125568, free 44291712, used 249833856, increment 0
+Sequential: max memory 1908932608, total allocated 294125568, free 44291712, used 249833856, increment 0
+Initial loss: 9.223157875686796
+Time since start: 963.214
+220: time = 0.399000 loss = 8.444526
+Res.gain: 0.778632314540392
+Jackknife: only VariableBioClim2
+Making features
+makeFeatures: max memory 1908932608, total allocated 291504128, free 205915344, used 85588784, increment -164245072
+Pinus_taeda_6 VariableBioClim2: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 291504128, free 205664600, used 85839528, increment 250744
+linearPredictor: max memory 1908932608, total allocated 291504128, free 205664600, used 85839528, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 291504128, free 205664600, used 85839528, increment 0
+Sequential: max memory 1908932608, total allocated 291504128, free 205664600, used 85839528, increment 0
+Initial loss: 9.223157875686796
+180: time = 0.251000 loss = 9.132145
+Res.gain: 0.0910133132050106
+Jackknife: only VariableBioClim4
+Making features
+makeFeatures: max memory 1908932608, total allocated 291504128, free 196216536, used 95287592, increment 9448064
+Pinus_taeda_6 VariableBioClim4: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 291504128, free 195965600, used 95538528, increment 250936
+linearPredictor: max memory 1908932608, total allocated 291504128, free 195965600, used 95538528, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 291504128, free 195965600, used 95538528, increment 0
+Sequential: max memory 1908932608, total allocated 291504128, free 195965600, used 95538528, increment 0
+Initial loss: 9.223157875686796
+Time since start: 966.428
+740: time = 2.928000 loss = 8.282793
+Res.gain: 0.9403653376152885
+getSamples: max memory 1908932608, total allocated 242221056, free 117271648, used 124949408, increment 29410880
+Making features
+makeFeatures: max memory 1908932608, total allocated 242221056, free 112776080, used 129444976, increment 4495568
+Pinus_taeda_7: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 242221056, free 103400248, used 138820808, increment 9375832
+linearPredictor: max memory 1908932608, total allocated 242221056, free 103400248, used 138820808, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 242221056, free 103400248, used 138820808, increment 0
+Sequential: max memory 1908932608, total allocated 242221056, free 103400248, used 138820808, increment 0
+Initial loss: 9.223157875686796
+Time since start: 972.292
+1000: time = 5.666000 loss = 7.716572
+Resulting gain: 1.50658625749538
+Projecting...
+Writing file /Users/boltece/Desktop/Trial_4/taeda_7common_var/data fixed/Pinus_taeda_7.asc
+Time since start: 1050.244
+Writing /Users/boltece/Desktop/Trial_4/taeda_7common_var/data fixed/plots/Pinus_taeda_7.png
+Time since start: 1052.692
+Pinus_taeda_7 response curves
+Response curve: only BioClim10
+Making features
+makeFeatures: max memory 1908932608, total allocated 450887680, free 326858528, used 124029152, increment -14791656
+Pinus_taeda_7 BioClim10: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 450887680, free 319900976, used 130986704, increment 6957552
+linearPredictor: max memory 1908932608, total allocated 450887680, free 319900976, used 130986704, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 450887680, free 319900976, used 130986704, increment 0
+Sequential: max memory 1908932608, total allocated 450887680, free 319900976, used 130986704, increment 0
+Initial loss: 9.223157875686796
+Time since start: 1053.926
+480: time = 0.722000 loss = 8.579178
+Resulting gain: 0.643979779325484
+Pinus_taeda_7 response curves
+Response curve: only BioClim15
+Making features
+makeFeatures: max memory 1908932608, total allocated 450887680, free 292212032, used 158675648, increment 27688944
+Pinus_taeda_7 BioClim15: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 450887680, free 292212032, used 158675648, increment 0
+linearPredictor: max memory 1908932608, total allocated 450887680, free 292212032, used 158675648, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 450887680, free 292212032, used 158675648, increment 0
+Sequential: max memory 1908932608, total allocated 450887680, free 292212032, used 158675648, increment 0
+Initial loss: 9.223157875686796
+160: time = 0.287000 loss = 8.961372
+Resulting gain: 0.2617861798978769
+Pinus_taeda_7 response curves
+Response curve: only BioClim17
+Making features
+makeFeatures: max memory 1908932608, total allocated 450887680, free 282889176, used 167998504, increment 9322856
+Pinus_taeda_7 BioClim17: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 450887680, free 275948008, used 174939672, increment 6941168
+linearPredictor: max memory 1908932608, total allocated 450887680, free 275948008, used 174939672, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 450887680, free 275948008, used 174939672, increment 0
+Sequential: max memory 1908932608, total allocated 450887680, free 275948008, used 174939672, increment 0
+Initial loss: 9.223157875686796
+Time since start: 1055.051
+440: time = 0.659000 loss = 8.491492
+Resulting gain: 0.7316661365619197
+Pinus_taeda_7 response curves
+Response curve: only BioClim8
+Making features
+makeFeatures: max memory 1908932608, total allocated 450887680, free 227741104, used 223146576, increment 48206904
+Pinus_taeda_7 BioClim8: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 450887680, free 227741104, used 223146576, increment 0
+linearPredictor: max memory 1908932608, total allocated 450887680, free 227741104, used 223146576, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 450887680, free 227741104, used 223146576, increment 0
+Sequential: max memory 1908932608, total allocated 450887680, free 227741104, used 223146576, increment 0
+Initial loss: 9.223157875686796
+600: time = 0.879000 loss = 8.550270
+Resulting gain: 0.6728874335695405
+Pinus_taeda_7 response curves
+Time since start: 1056.078
+Response curve: only BioClim9
+Making features
+makeFeatures: max memory 1908932608, total allocated 450887680, free 155125664, used 295762016, increment 72615440
+Pinus_taeda_7 BioClim9: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 450887680, free 155125664, used 295762016, increment 0
+linearPredictor: max memory 1908932608, total allocated 450887680, free 155125664, used 295762016, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 450887680, free 155125664, used 295762016, increment 0
+Sequential: max memory 1908932608, total allocated 450887680, free 155125664, used 295762016, increment 0
+Initial loss: 9.223157875686796
+360: time = 0.569000 loss = 8.294477
+Resulting gain: 0.9286810117567619
+Pinus_taeda_7 response curves
+Response curve: only VariableBioClim2
+Making features
+makeFeatures: max memory 1908932608, total allocated 450887680, free 101057608, used 349830072, increment 54068056
+Pinus_taeda_7 VariableBioClim2: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 450887680, free 101057608, used 349830072, increment 0
+linearPredictor: max memory 1908932608, total allocated 450887680, free 101057608, used 349830072, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 450887680, free 101057608, used 349830072, increment 0
+Sequential: max memory 1908932608, total allocated 450887680, free 101057608, used 349830072, increment 0
+Initial loss: 9.223157875686796
+Time since start: 1057.14
+300: time = 0.396000 loss = 9.070505
+Resulting gain: 0.1526524367125468
+Pinus_taeda_7 response curves
+Response curve: only VariableBioClim4
+Making features
+makeFeatures: max memory 1908932608, total allocated 450887680, free 82991416, used 367896264, increment 18066192
+Pinus_taeda_7 VariableBioClim4: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 450887680, free 82991416, used 367896264, increment 0
+linearPredictor: max memory 1908932608, total allocated 450887680, free 82991416, used 367896264, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 450887680, free 82991416, used 367896264, increment 0
+Sequential: max memory 1908932608, total allocated 450887680, free 82991416, used 367896264, increment 0
+Initial loss: 9.223157875686796
+Time since start: 1058.407
+300: time = 1.175000 loss = 8.217535
+Resulting gain: 1.0056232509702703
+Pinus_taeda_7 response curves
+Jackknife: leave BioClim10 out
+Making features
+makeFeatures: max memory 1908932608, total allocated 515375104, free 69255576, used 446119528, increment 78223264
+Pinus_taeda_7 BioClim10: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 515375104, free 61348952, used 454026152, increment 7906624
+linearPredictor: max memory 1908932608, total allocated 515375104, free 61348952, used 454026152, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 515375104, free 61348952, used 454026152, increment 0
+Sequential: max memory 1908932608, total allocated 515375104, free 61348952, used 454026152, increment 0
+Initial loss: 9.223157875686796
+Time since start: 1064.41
+1000: time = 5.448000 loss = 7.777248
+Jackknife: leave BioClim15 out
+Making features
+makeFeatures: max memory 1908932608, total allocated 670040064, free 384606936, used 285433128, increment -168593024
+Pinus_taeda_7 BioClim15: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 670040064, free 373163096, used 296876968, increment 11443840
+linearPredictor: max memory 1908932608, total allocated 670040064, free 373163096, used 296876968, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 670040064, free 373163096, used 296876968, increment 0
+Sequential: max memory 1908932608, total allocated 670040064, free 373163096, used 296876968, increment 0
+Initial loss: 9.223157875686796
+Time since start: 1070.064
+1000: time = 5.555000 loss = 7.749988
+Jackknife: leave BioClim17 out
+Making features
+makeFeatures: max memory 1908932608, total allocated 586678272, free 313033512, used 273644760, increment -23232208
+Pinus_taeda_7 BioClim17: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 586678272, free 303238824, used 283439448, increment 9794688
+linearPredictor: max memory 1908932608, total allocated 586678272, free 303238824, used 283439448, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 586678272, free 303238824, used 283439448, increment 0
+Sequential: max memory 1908932608, total allocated 586678272, free 303238824, used 283439448, increment 0
+Initial loss: 9.223157875686796
+Time since start: 1075.437
+1000: time = 5.270000 loss = 7.760382
+Jackknife: leave BioClim8 out
+Making features
+makeFeatures: max memory 1908932608, total allocated 521666560, free 78528760, used 443137800, increment 159698352
+Pinus_taeda_7 BioClim8: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 521666560, free 70003368, used 451663192, increment 8525392
+linearPredictor: max memory 1908932608, total allocated 521666560, free 70003368, used 451663192, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 521666560, free 70003368, used 451663192, increment 0
+Sequential: max memory 1908932608, total allocated 521666560, free 70003368, used 451663192, increment 0
+Initial loss: 9.223157875686796
+Time since start: 1079.988
+860: time = 4.446000 loss = 7.758907
+Jackknife: leave BioClim9 out
+Making features
+makeFeatures: max memory 1908932608, total allocated 449314816, free 239195280, used 210119536, increment -241543656
+Pinus_taeda_7 BioClim9: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 449314816, free 232004848, used 217309968, increment 7190432
+linearPredictor: max memory 1908932608, total allocated 449314816, free 232004848, used 217309968, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 449314816, free 232004848, used 217309968, increment 0
+Sequential: max memory 1908932608, total allocated 449314816, free 232004848, used 217309968, increment 0
+Initial loss: 9.223157875686796
+Time since start: 1085.251
+1000: time = 5.165000 loss = 7.733303
+Jackknife: leave VariableBioClim2 out
+Making features
+makeFeatures: max memory 1908932608, total allocated 378535936, free 293293832, used 85242104, increment -132067864
+Pinus_taeda_7 VariableBioClim2: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 378535936, free 287609512, used 90926424, increment 5684320
+linearPredictor: max memory 1908932608, total allocated 378535936, free 287609512, used 90926424, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 378535936, free 287609512, used 90926424, increment 0
+Sequential: max memory 1908932608, total allocated 378535936, free 287609512, used 90926424, increment 0
+Initial loss: 9.223157875686796
+Time since start: 1090.748
+1000: time = 5.384000 loss = 7.772634
+Jackknife: leave VariableBioClim4 out
+Making features
+makeFeatures: max memory 1908932608, total allocated 312999936, free 128813880, used 184186056, increment 93259632
+Pinus_taeda_7 VariableBioClim4: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 312999936, free 119883264, used 193116672, increment 8930616
+linearPredictor: max memory 1908932608, total allocated 312999936, free 119883264, used 193116672, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 312999936, free 119883264, used 193116672, increment 0
+Sequential: max memory 1908932608, total allocated 312999936, free 119883264, used 193116672, increment 0
+Initial loss: 9.223157875686796
+Time since start: 1093.751
+1000: time = 2.890000 loss = 7.822415
+Jackknife: only BioClim10
+Making features
+makeFeatures: max memory 1908932608, total allocated 298319872, free 127098384, used 171221488, increment -21895184
+Pinus_taeda_7 BioClim10: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 298319872, free 127062608, used 171257264, increment 35776
+linearPredictor: max memory 1908932608, total allocated 298319872, free 127062608, used 171257264, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 298319872, free 127062608, used 171257264, increment 0
+Sequential: max memory 1908932608, total allocated 298319872, free 127062608, used 171257264, increment 0
+Initial loss: 9.223157875686796
+480: time = 0.734000 loss = 8.579178
+Res.gain: 0.643979779325484
+Jackknife: only BioClim15
+Making features
+makeFeatures: max memory 1908932608, total allocated 298319872, free 100195280, used 198124592, increment 26867328
+Pinus_taeda_7 BioClim15: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 298319872, free 100075888, used 198243984, increment 119392
+linearPredictor: max memory 1908932608, total allocated 298319872, free 100075888, used 198243984, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 298319872, free 100075888, used 198243984, increment 0
+Sequential: max memory 1908932608, total allocated 298319872, free 100075888, used 198243984, increment 0
+Initial loss: 9.223157875686796
+Time since start: 1094.811
+160: time = 0.293000 loss = 8.961372
+Res.gain: 0.2617861798978769
+Jackknife: only BioClim17
+Making features
+makeFeatures: max memory 1908932608, total allocated 298319872, free 93672136, used 204647736, increment 6403752
+Pinus_taeda_7 BioClim17: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 298319872, free 93672136, used 204647736, increment 0
+linearPredictor: max memory 1908932608, total allocated 298319872, free 93672136, used 204647736, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 298319872, free 93672136, used 204647736, increment 0
+Sequential: max memory 1908932608, total allocated 298319872, free 93672136, used 204647736, increment 0
+Initial loss: 9.223157875686796
+440: time = 0.679000 loss = 8.491492
+Res.gain: 0.7316661365619197
+Jackknife: only BioClim8
+Making features
+makeFeatures: max memory 1908932608, total allocated 298319872, free 43056016, used 255263856, increment 50616120
+Pinus_taeda_7 BioClim8: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 298319872, free 43056016, used 255263856, increment 0
+linearPredictor: max memory 1908932608, total allocated 298319872, free 43056016, used 255263856, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 298319872, free 43056016, used 255263856, increment 0
+Sequential: max memory 1908932608, total allocated 298319872, free 43056016, used 255263856, increment 0
+Initial loss: 9.223157875686796
+Time since start: 1096.413
+600: time = 0.889000 loss = 8.550270
+Res.gain: 0.6728874335695405
+Jackknife: only BioClim9
+Making features
+makeFeatures: max memory 1908932608, total allocated 294649856, free 171039200, used 123610656, increment -131653200
+Pinus_taeda_7 BioClim9: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 294649856, free 171039200, used 123610656, increment 0
+linearPredictor: max memory 1908932608, total allocated 294649856, free 171039200, used 123610656, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 294649856, free 171039200, used 123610656, increment 0
+Sequential: max memory 1908932608, total allocated 294649856, free 171039200, used 123610656, increment 0
+Initial loss: 9.223157875686796
+360: time = 0.566000 loss = 8.294477
+Res.gain: 0.9286810117567619
+Jackknife: only VariableBioClim2
+Making features
+makeFeatures: max memory 1908932608, total allocated 294649856, free 124822600, used 169827256, increment 46216600
+Pinus_taeda_7 VariableBioClim2: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 294649856, free 121109960, used 173539896, increment 3712640
+linearPredictor: max memory 1908932608, total allocated 294649856, free 121109960, used 173539896, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 294649856, free 121109960, used 173539896, increment 0
+Sequential: max memory 1908932608, total allocated 294649856, free 121109960, used 173539896, increment 0
+Initial loss: 9.223157875686796
+300: time = 0.393000 loss = 9.070505
+Res.gain: 0.1526524367125468
+Jackknife: only VariableBioClim4
+Making features
+makeFeatures: max memory 1908932608, total allocated 294649856, free 109271832, used 185378024, increment 11838128
+Pinus_taeda_7 VariableBioClim4: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+Time since start: 1097.423
+129 samples
+Density: max memory 1908932608, total allocated 294649856, free 109271832, used 185378024, increment 0
+linearPredictor: max memory 1908932608, total allocated 294649856, free 109271832, used 185378024, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 294649856, free 109271832, used 185378024, increment 0
+Sequential: max memory 1908932608, total allocated 294649856, free 109271832, used 185378024, increment 0
+Initial loss: 9.223157875686796
+Time since start: 1098.613
+300: time = 1.188000 loss = 8.217535
+Res.gain: 1.0056232509702703
+getSamples: max memory 1908932608, total allocated 267386880, free 132350488, used 135036392, increment -50341632
+Making features
+makeFeatures: max memory 1908932608, total allocated 267386880, free 127548280, used 139838600, increment 4802208
+Pinus_taeda_8: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 267386880, free 116961288, used 150425592, increment 10586992
+linearPredictor: max memory 1908932608, total allocated 267386880, free 116961288, used 150425592, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 267386880, free 116961288, used 150425592, increment 0
+Sequential: max memory 1908932608, total allocated 267386880, free 116961288, used 150425592, increment 0
+Initial loss: 9.223157875686796
+Time since start: 1104.444
+1000: time = 5.627000 loss = 7.775257
+Resulting gain: 1.4479011620455093
+Projecting...
+Writing file /Users/boltece/Desktop/Trial_4/taeda_7common_var/data fixed/Pinus_taeda_8.asc
+Time since start: 1180.303
+Writing /Users/boltece/Desktop/Trial_4/taeda_7common_var/data fixed/plots/Pinus_taeda_8.png
+Time since start: 1182.699
+Pinus_taeda_8 response curves
+Response curve: only BioClim10
+Making features
+makeFeatures: max memory 1908932608, total allocated 488112128, free 411695184, used 76416944, increment -74008648
+Pinus_taeda_8 BioClim10: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 488112128, free 411601384, used 76510744, increment 93800
+linearPredictor: max memory 1908932608, total allocated 488112128, free 411601384, used 76510744, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 488112128, free 411601384, used 76510744, increment 0
+Sequential: max memory 1908932608, total allocated 488112128, free 411601384, used 76510744, increment 0
+Initial loss: 9.223157875686796
+Time since start: 1183.718
+380: time = 0.526000 loss = 8.646522
+Resulting gain: 0.5766355460091628
+Pinus_taeda_8 response curves
+Response curve: only BioClim15
+Making features
+makeFeatures: max memory 1908932608, total allocated 488112128, free 383910536, used 104201592, increment 27690848
+Pinus_taeda_8 BioClim15: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 488112128, free 383910536, used 104201592, increment 0
+linearPredictor: max memory 1908932608, total allocated 488112128, free 383910536, used 104201592, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 488112128, free 383910536, used 104201592, increment 0
+Sequential: max memory 1908932608, total allocated 488112128, free 383910536, used 104201592, increment 0
+Initial loss: 9.223157875686796
+160: time = 0.199000 loss = 8.984615
+Resulting gain: 0.23854292609816952
+Pinus_taeda_8 response curves
+Response curve: only BioClim17
+Making features
+makeFeatures: max memory 1908932608, total allocated 488112128, free 374137768, used 113974360, increment 9772768
+Pinus_taeda_8 BioClim17: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 488112128, free 374079720, used 114032408, increment 58048
+linearPredictor: max memory 1908932608, total allocated 488112128, free 374079720, used 114032408, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 488112128, free 374079720, used 114032408, increment 0
+Sequential: max memory 1908932608, total allocated 488112128, free 374079720, used 114032408, increment 0
+Initial loss: 9.223157875686796
+420: time = 0.635000 loss = 8.479508
+Resulting gain: 0.7436494287699027
+Pinus_taeda_8 response curves
+Time since start: 1184.778
+Response curve: only BioClim8
+Making features
+makeFeatures: max memory 1908932608, total allocated 488112128, free 323090808, used 165021320, increment 50988912
+Pinus_taeda_8 BioClim8: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 488112128, free 323090808, used 165021320, increment 0
+linearPredictor: max memory 1908932608, total allocated 488112128, free 323090808, used 165021320, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 488112128, free 323090808, used 165021320, increment 0
+Sequential: max memory 1908932608, total allocated 488112128, free 323090808, used 165021320, increment 0
+Initial loss: 9.223157875686796
+500: time = 0.730000 loss = 8.597887
+Resulting gain: 0.6252713183181342
+Pinus_taeda_8 response curves
+Response curve: only BioClim9
+Making features
+makeFeatures: max memory 1908932608, total allocated 488112128, free 263012816, used 225099312, increment 60077992
+Pinus_taeda_8 BioClim9: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 488112128, free 263012816, used 225099312, increment 0
+linearPredictor: max memory 1908932608, total allocated 488112128, free 263012816, used 225099312, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 488112128, free 263012816, used 225099312, increment 0
+Sequential: max memory 1908932608, total allocated 488112128, free 263012816, used 225099312, increment 0
+Initial loss: 9.223157875686796
+Time since start: 1186.156
+360: time = 0.544000 loss = 8.361872
+Resulting gain: 0.8612858044283165
+Pinus_taeda_8 response curves
+Response curve: only VariableBioClim2
+Making features
+makeFeatures: max memory 1908932608, total allocated 488112128, free 212647472, used 275464656, increment 50365344
+Pinus_taeda_8 VariableBioClim2: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 488112128, free 212589416, used 275522712, increment 58056
+linearPredictor: max memory 1908932608, total allocated 488112128, free 212589416, used 275522712, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 488112128, free 212589416, used 275522712, increment 0
+Sequential: max memory 1908932608, total allocated 488112128, free 212589416, used 275522712, increment 0
+Initial loss: 9.223157875686796
+280: time = 0.389000 loss = 9.130245
+Resulting gain: 0.09291290225928428
+Pinus_taeda_8 response curves
+Response curve: only VariableBioClim4
+Making features
+makeFeatures: max memory 1908932608, total allocated 488112128, free 194251536, used 293860592, increment 18337880
+Pinus_taeda_8 VariableBioClim4: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 488112128, free 194193480, used 293918648, increment 58056
+linearPredictor: max memory 1908932608, total allocated 488112128, free 194193480, used 293918648, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 488112128, free 194193480, used 293918648, increment 0
+Sequential: max memory 1908932608, total allocated 488112128, free 194193480, used 293918648, increment 0
+Initial loss: 9.223157875686796
+Time since start: 1187.718
+240: time = 0.993000 loss = 8.362553
+Resulting gain: 0.860605069885592
+Pinus_taeda_8 response curves
+Jackknife: leave BioClim10 out
+Making features
+makeFeatures: max memory 1908932608, total allocated 490209280, free 221284488, used 268924792, increment -24993856
+Pinus_taeda_8 BioClim10: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 490209280, free 213957568, used 276251712, increment 7326920
+linearPredictor: max memory 1908932608, total allocated 490209280, free 213957568, used 276251712, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 490209280, free 213957568, used 276251712, increment 0
+Sequential: max memory 1908932608, total allocated 490209280, free 213957568, used 276251712, increment 0
+Initial loss: 9.223157875686796
+Time since start: 1193.627
+1000: time = 5.400000 loss = 7.806364
+Jackknife: leave BioClim15 out
+Making features
+makeFeatures: max memory 1908932608, total allocated 638058496, free 495289672, used 142768824, increment -133482888
+Pinus_taeda_8 BioClim15: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 638058496, free 495289672, used 142768824, increment 0
+linearPredictor: max memory 1908932608, total allocated 638058496, free 495289672, used 142768824, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 638058496, free 495289672, used 142768824, increment 0
+Sequential: max memory 1908932608, total allocated 638058496, free 495289672, used 142768824, increment 0
+Initial loss: 9.223157875686796
+Time since start: 1199.078
+1000: time = 5.328000 loss = 7.777251
+Jackknife: leave BioClim17 out
+Making features
+makeFeatures: max memory 1908932608, total allocated 559415296, free 233977032, used 325438264, increment 182669440
+Pinus_taeda_8 BioClim17: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 559415296, free 224919080, used 334496216, increment 9057952
+linearPredictor: max memory 1908932608, total allocated 559415296, free 224919080, used 334496216, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 559415296, free 224919080, used 334496216, increment 0
+Sequential: max memory 1908932608, total allocated 559415296, free 224919080, used 334496216, increment 0
+Initial loss: 9.223157875686796
+Time since start: 1204.246
+1000: time = 5.070000 loss = 7.873185
+Jackknife: leave BioClim8 out
+Making features
+makeFeatures: max memory 1908932608, total allocated 470810624, free 307684648, used 163125976, increment -171370240
+Pinus_taeda_8 BioClim8: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 470810624, free 300125896, used 170684728, increment 7558752
+linearPredictor: max memory 1908932608, total allocated 470810624, free 300125896, used 170684728, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 470810624, free 300125896, used 170684728, increment 0
+Sequential: max memory 1908932608, total allocated 470810624, free 300125896, used 170684728, increment 0
+Initial loss: 9.223157875686796
+Time since start: 1209.267
+980: time = 4.923000 loss = 7.847120
+Jackknife: leave BioClim9 out
+Making features
+makeFeatures: max memory 1908932608, total allocated 407371776, free 81455360, used 325916416, increment 155231688
+Pinus_taeda_8 BioClim9: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 407371776, free 75135480, used 332236296, increment 6319880
+linearPredictor: max memory 1908932608, total allocated 407371776, free 75135480, used 332236296, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 407371776, free 75135480, used 332236296, increment 0
+Sequential: max memory 1908932608, total allocated 407371776, free 75135480, used 332236296, increment 0
+Initial loss: 9.223157875686796
+Time since start: 1214.486
+1000: time = 5.120000 loss = 7.803540
+Jackknife: leave VariableBioClim2 out
+Making features
+makeFeatures: max memory 1908932608, total allocated 334495744, free 127274288, used 207221456, increment -125014840
+Pinus_taeda_8 VariableBioClim2: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 334495744, free 122343424, used 212152320, increment 4930864
+linearPredictor: max memory 1908932608, total allocated 334495744, free 122343424, used 212152320, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 334495744, free 122343424, used 212152320, increment 0
+Sequential: max memory 1908932608, total allocated 334495744, free 122343424, used 212152320, increment 0
+Initial loss: 9.223157875686796
+Time since start: 1219.96
+1000: time = 5.374000 loss = 7.836562
+Jackknife: leave VariableBioClim4 out
+Making features
+makeFeatures: max memory 1908932608, total allocated 263716864, free 138446752, used 125270112, increment -86882208
+Pinus_taeda_8 VariableBioClim4: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 263716864, free 131274584, used 132442280, increment 7172168
+linearPredictor: max memory 1908932608, total allocated 263716864, free 131274584, used 132442280, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 263716864, free 131274584, used 132442280, increment 0
+Sequential: max memory 1908932608, total allocated 263716864, free 131274584, used 132442280, increment 0
+Initial loss: 9.223157875686796
+Time since start: 1222.858
+1000: time = 2.802000 loss = 7.841932
+Jackknife: only BioClim10
+Making features
+makeFeatures: max memory 1908932608, total allocated 252706816, free 51498480, used 201208336, increment 68766056
+Pinus_taeda_8 BioClim10: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 252706816, free 51399752, used 201307064, increment 98728
+linearPredictor: max memory 1908932608, total allocated 252706816, free 51399752, used 201307064, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 252706816, free 51399752, used 201307064, increment 0
+Sequential: max memory 1908932608, total allocated 252706816, free 51399752, used 201307064, increment 0
+Initial loss: 9.223157875686796
+380: time = 0.520000 loss = 8.646522
+Res.gain: 0.5766355460091628
+Jackknife: only BioClim15
+Making features
+makeFeatures: max memory 1908932608, total allocated 248512512, free 184715240, used 63797272, increment -137509792
+Pinus_taeda_8 BioClim15: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 248512512, free 181697008, used 66815504, increment 3018232
+linearPredictor: max memory 1908932608, total allocated 248512512, free 181697008, used 66815504, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 248512512, free 181697008, used 66815504, increment 0
+Sequential: max memory 1908932608, total allocated 248512512, free 181697008, used 66815504, increment 0
+Initial loss: 9.223157875686796
+160: time = 0.200000 loss = 8.984615
+Res.gain: 0.23854292609816952
+Jackknife: only BioClim17
+Making features
+makeFeatures: max memory 1908932608, total allocated 248512512, free 176320888, used 72191624, increment 5376120
+Pinus_taeda_8 BioClim17: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 248512512, free 176320888, used 72191624, increment 0
+linearPredictor: max memory 1908932608, total allocated 248512512, free 176320888, used 72191624, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 248512512, free 176320888, used 72191624, increment 0
+Sequential: max memory 1908932608, total allocated 248512512, free 176320888, used 72191624, increment 0
+Initial loss: 9.223157875686796
+Time since start: 1224.257
+420: time = 0.631000 loss = 8.479508
+Res.gain: 0.7436494287699027
+Jackknife: only BioClim8
+Making features
+makeFeatures: max memory 1908932608, total allocated 248512512, free 131009536, used 117502976, increment 45311352
+Pinus_taeda_8 BioClim8: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 248512512, free 131009536, used 117502976, increment 0
+linearPredictor: max memory 1908932608, total allocated 248512512, free 131009536, used 117502976, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 248512512, free 131009536, used 117502976, increment 0
+Sequential: max memory 1908932608, total allocated 248512512, free 131009536, used 117502976, increment 0
+Initial loss: 9.223157875686796
+500: time = 0.728000 loss = 8.597887
+Res.gain: 0.6252713183181342
+Jackknife: only BioClim9
+Making features
+makeFeatures: max memory 1908932608, total allocated 248512512, free 74948920, used 173563592, increment 56060616
+Pinus_taeda_8 BioClim9: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 248512512, free 74948920, used 173563592, increment 0
+linearPredictor: max memory 1908932608, total allocated 248512512, free 74948920, used 173563592, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 248512512, free 74948920, used 173563592, increment 0
+Sequential: max memory 1908932608, total allocated 248512512, free 74948920, used 173563592, increment 0
+Initial loss: 9.223157875686796
+Time since start: 1225.567
+360: time = 0.549000 loss = 8.361872
+Res.gain: 0.8612858044283165
+Jackknife: only VariableBioClim2
+Making features
+makeFeatures: max memory 1908932608, total allocated 246415360, free 178811808, used 67603552, increment -105960040
+Pinus_taeda_8 VariableBioClim2: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 246415360, free 175724496, used 70690864, increment 3087312
+linearPredictor: max memory 1908932608, total allocated 246415360, free 175724496, used 70690864, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 246415360, free 175724496, used 70690864, increment 0
+Sequential: max memory 1908932608, total allocated 246415360, free 175724496, used 70690864, increment 0
+Initial loss: 9.223157875686796
+280: time = 0.384000 loss = 9.130245
+Res.gain: 0.09291290225928428
+Jackknife: only VariableBioClim4
+Making features
+makeFeatures: max memory 1908932608, total allocated 246415360, free 166886584, used 79528776, increment 8837912
+Pinus_taeda_8 VariableBioClim4: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 246415360, free 164033320, used 82382040, increment 2853264
+linearPredictor: max memory 1908932608, total allocated 246415360, free 164033320, used 82382040, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 246415360, free 164033320, used 82382040, increment 0
+Sequential: max memory 1908932608, total allocated 246415360, free 164033320, used 82382040, increment 0
+Initial loss: 9.223157875686796
+Time since start: 1226.95
+240: time = 0.965000 loss = 8.362553
+Res.gain: 0.860605069885592
+getSamples: max memory 1908932608, total allocated 227016704, free 126767936, used 100248768, increment 17866728
+Making features
+makeFeatures: max memory 1908932608, total allocated 227016704, free 122677296, used 104339408, increment 4090640
+Pinus_taeda_9: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 227016704, free 114452864, used 112563840, increment 8224432
+linearPredictor: max memory 1908932608, total allocated 227016704, free 114371816, used 112644888, increment 81048
+FeaturedSpace: max memory 1908932608, total allocated 227016704, free 114371816, used 112644888, increment 0
+Sequential: max memory 1908932608, total allocated 227016704, free 114371816, used 112644888, increment 0
+Initial loss: 9.223157875686796
+Time since start: 1232.832
+1000: time = 5.695000 loss = 7.789401
+Resulting gain: 1.4337572542477188
+Projecting...
+Writing file /Users/boltece/Desktop/Trial_4/taeda_7common_var/data fixed/Pinus_taeda_9.asc
+Time since start: 1308.664
+Writing /Users/boltece/Desktop/Trial_4/taeda_7common_var/data fixed/plots/Pinus_taeda_9.png
+Time since start: 1311.03
+Pinus_taeda_9 response curves
+Response curve: only BioClim10
+Making features
+makeFeatures: max memory 1908932608, total allocated 531628032, free 384636736, used 146991296, increment 34346408
+Pinus_taeda_9 BioClim10: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 531628032, free 384578632, used 147049400, increment 58104
+linearPredictor: max memory 1908932608, total allocated 531628032, free 384578632, used 147049400, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 531628032, free 384578632, used 147049400, increment 0
+Sequential: max memory 1908932608, total allocated 531628032, free 384578632, used 147049400, increment 0
+Initial loss: 9.223157875686796
+200: time = 0.286000 loss = 8.625951
+Resulting gain: 0.5972070308733723
+Pinus_taeda_9 response curves
+Response curve: only BioClim15
+Making features
+makeFeatures: max memory 1908932608, total allocated 531628032, free 365109352, used 166518680, increment 19469280
+Pinus_taeda_9 BioClim15: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 531628032, free 365051432, used 166576600, increment 57920
+linearPredictor: max memory 1908932608, total allocated 531628032, free 365051432, used 166576600, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 531628032, free 365051432, used 166576600, increment 0
+Sequential: max memory 1908932608, total allocated 531628032, free 365051432, used 166576600, increment 0
+Initial loss: 9.223157875686796
+Time since start: 1312.126
+200: time = 0.257000 loss = 9.007038
+Resulting gain: 0.21612006574746978
+Pinus_taeda_9 response curves
+Response curve: only BioClim17
+Making features
+makeFeatures: max memory 1908932608, total allocated 531628032, free 353892816, used 177735216, increment 11158616
+Pinus_taeda_9 BioClim17: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 531628032, free 353892816, used 177735216, increment 0
+linearPredictor: max memory 1908932608, total allocated 531628032, free 353892816, used 177735216, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 531628032, free 353892816, used 177735216, increment 0
+Sequential: max memory 1908932608, total allocated 531628032, free 353892816, used 177735216, increment 0
+Initial loss: 9.223157875686796
+400: time = 0.582000 loss = 8.576336
+Resulting gain: 0.6468223311548389
+Pinus_taeda_9 response curves
+Response curve: only BioClim8
+Making features
+makeFeatures: max memory 1908932608, total allocated 531628032, free 306824000, used 224804032, increment 47068816
+Pinus_taeda_9 BioClim8: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 531628032, free 298491344, used 233136688, increment 8332656
+linearPredictor: max memory 1908932608, total allocated 531628032, free 298491344, used 233136688, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 531628032, free 298491344, used 233136688, increment 0
+Sequential: max memory 1908932608, total allocated 531628032, free 298491344, used 233136688, increment 0
+Initial loss: 9.223157875686796
+Time since start: 1314.178
+820: time = 1.305000 loss = 8.482945
+Resulting gain: 0.740213234617455
+Pinus_taeda_9 response curves
+Response curve: only BioClim9
+Making features
+makeFeatures: max memory 1908932608, total allocated 531628032, free 211543576, used 320084456, increment 86947768
+Pinus_taeda_9 BioClim9: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 531628032, free 211543576, used 320084456, increment 0
+linearPredictor: max memory 1908932608, total allocated 531628032, free 203270176, used 328357856, increment 8273400
+FeaturedSpace: max memory 1908932608, total allocated 531628032, free 203270176, used 328357856, increment 0
+Sequential: max memory 1908932608, total allocated 531628032, free 203270176, used 328357856, increment 0
+Initial loss: 9.223157875686796
+240: time = 0.392000 loss = 8.382944
+Resulting gain: 0.8402137973171317
+Pinus_taeda_9 response curves
+Response curve: only VariableBioClim2
+Making features
+makeFeatures: max memory 1908932608, total allocated 531628032, free 174867688, used 356760344, increment 28402488
+Pinus_taeda_9 VariableBioClim2: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 531628032, free 166536344, used 365091688, increment 8331344
+linearPredictor: max memory 1908932608, total allocated 531628032, free 166536344, used 365091688, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 531628032, free 166536344, used 365091688, increment 0
+Sequential: max memory 1908932608, total allocated 531628032, free 166536344, used 365091688, increment 0
+Initial loss: 9.223157875686796
+320: time = 0.438000 loss = 9.088960
+Resulting gain: 0.1341976102591662
+Pinus_taeda_9 response curves
+Time since start: 1315.239
+Response curve: only VariableBioClim4
+Making features
+makeFeatures: max memory 1908932608, total allocated 531628032, free 153482888, used 378145144, increment 13053456
+Pinus_taeda_9 VariableBioClim4: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 531628032, free 153482888, used 378145144, increment 0
+linearPredictor: max memory 1908932608, total allocated 531628032, free 153482888, used 378145144, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 531628032, free 153482888, used 378145144, increment 0
+Sequential: max memory 1908932608, total allocated 531628032, free 153482888, used 378145144, increment 0
+Initial loss: 9.223157875686796
+Time since start: 1316.692
+360: time = 1.434000 loss = 8.291375
+Resulting gain: 0.9317833143502696
+Pinus_taeda_9 response curves
+Jackknife: leave BioClim10 out
+Making features
+makeFeatures: max memory 1908932608, total allocated 606601216, free 543451528, used 63149688, increment -314995456
+Pinus_taeda_9 BioClim10: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 606601216, free 533864624, used 72736592, increment 9586904
+linearPredictor: max memory 1908932608, total allocated 606601216, free 533864624, used 72736592, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 606601216, free 533864624, used 72736592, increment 0
+Sequential: max memory 1908932608, total allocated 606601216, free 533864624, used 72736592, increment 0
+Initial loss: 9.223157875686796
+Time since start: 1322.679
+1000: time = 5.462000 loss = 7.834669
+Jackknife: leave BioClim15 out
+Making features
+makeFeatures: max memory 1908932608, total allocated 695205888, free 498166848, used 197039040, increment 124302448
+Pinus_taeda_9 BioClim15: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 695205888, free 498166848, used 197039040, increment 0
+linearPredictor: max memory 1908932608, total allocated 695205888, free 498166848, used 197039040, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 695205888, free 498166848, used 197039040, increment 0
+Sequential: max memory 1908932608, total allocated 695205888, free 498166848, used 197039040, increment 0
+Initial loss: 9.223157875686796
+Time since start: 1328.164
+1000: time = 5.387000 loss = 7.803528
+Jackknife: leave BioClim17 out
+Making features
+makeFeatures: max memory 1908932608, total allocated 608174080, free 379530848, used 228643232, increment 31604192
+Pinus_taeda_9 BioClim17: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 608174080, free 369495552, used 238678528, increment 10035296
+linearPredictor: max memory 1908932608, total allocated 608174080, free 369495552, used 238678528, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 608174080, free 369495552, used 238678528, increment 0
+Sequential: max memory 1908932608, total allocated 608174080, free 369495552, used 238678528, increment 0
+Initial loss: 9.223157875686796
+Time since start: 1333.561
+1000: time = 5.295000 loss = 7.849115
+Jackknife: leave BioClim8 out
+Making features
+makeFeatures: max memory 1908932608, total allocated 533725184, free 191642320, used 342082864, increment 103404336
+Pinus_taeda_9 BioClim8: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 533725184, free 182964200, used 350760984, increment 8678120
+linearPredictor: max memory 1908932608, total allocated 533725184, free 182964200, used 350760984, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 533725184, free 182964200, used 350760984, increment 0
+Sequential: max memory 1908932608, total allocated 533725184, free 182964200, used 350760984, increment 0
+Initial loss: 9.223157875686796
+Time since start: 1338.938
+1000: time = 5.277000 loss = 7.861481
+Jackknife: leave BioClim9 out
+Making features
+makeFeatures: max memory 1908932608, total allocated 460849152, free 128345600, used 332503552, increment -18257432
+Pinus_taeda_9 BioClim9: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 460849152, free 113742856, used 347106296, increment 14602744
+linearPredictor: max memory 1908932608, total allocated 460849152, free 113742856, used 347106296, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 460849152, free 113742856, used 347106296, increment 0
+Sequential: max memory 1908932608, total allocated 460849152, free 113742856, used 347106296, increment 0
+Initial loss: 9.223157875686796
+Time since start: 1344.255
+1000: time = 5.220000 loss = 7.794973
+Jackknife: leave VariableBioClim2 out
+Making features
+makeFeatures: max memory 1908932608, total allocated 387973120, free 124975264, used 262997856, increment -84108440
+Pinus_taeda_9 VariableBioClim2: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 387973120, free 119054536, used 268918584, increment 5920728
+linearPredictor: max memory 1908932608, total allocated 387973120, free 119054536, used 268918584, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 387973120, free 119054536, used 268918584, increment 0
+Sequential: max memory 1908932608, total allocated 387973120, free 119054536, used 268918584, increment 0
+Initial loss: 9.223157875686796
+Time since start: 1349.714
+1000: time = 5.359000 loss = 7.841572
+Jackknife: leave VariableBioClim4 out
+Making features
+makeFeatures: max memory 1908932608, total allocated 310902784, free 225241264, used 85661520, increment -183257064
+Pinus_taeda_9 VariableBioClim4: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 310902784, free 216405264, used 94497520, increment 8836000
+linearPredictor: max memory 1908932608, total allocated 310902784, free 216405264, used 94497520, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 310902784, free 216405264, used 94497520, increment 0
+Sequential: max memory 1908932608, total allocated 310902784, free 216405264, used 94497520, increment 0
+Initial loss: 9.223157875686796
+Time since start: 1352.629
+1000: time = 2.818000 loss = 7.874160
+Jackknife: only BioClim10
+Making features
+makeFeatures: max memory 1908932608, total allocated 296222720, free 213094008, used 83128712, increment -11368808
+Pinus_taeda_9 BioClim10: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 296222720, free 209150768, used 87071952, increment 3943240
+linearPredictor: max memory 1908932608, total allocated 296222720, free 209150768, used 87071952, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 296222720, free 209150768, used 87071952, increment 0
+Sequential: max memory 1908932608, total allocated 296222720, free 209150768, used 87071952, increment 0
+Initial loss: 9.223157875686796
+200: time = 0.288000 loss = 8.625951
+Res.gain: 0.5972070308733723
+Jackknife: only BioClim15
+Making features
+makeFeatures: max memory 1908932608, total allocated 296222720, free 198346632, used 97876088, increment 10804136
+Pinus_taeda_9 BioClim15: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 296222720, free 198346632, used 97876088, increment 0
+linearPredictor: max memory 1908932608, total allocated 296222720, free 198346632, used 97876088, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 296222720, free 198346632, used 97876088, increment 0
+Sequential: max memory 1908932608, total allocated 296222720, free 198346632, used 97876088, increment 0
+Initial loss: 9.223157875686796
+200: time = 0.252000 loss = 9.007038
+Res.gain: 0.21612006574746978
+Jackknife: only BioClim17
+Making features
+makeFeatures: max memory 1908932608, total allocated 296222720, free 191431384, used 104791336, increment 6915248
+Pinus_taeda_9 BioClim17: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 296222720, free 187523936, used 108698784, increment 3907448
+linearPredictor: max memory 1908932608, total allocated 296222720, free 187523936, used 108698784, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 296222720, free 187523936, used 108698784, increment 0
+Sequential: max memory 1908932608, total allocated 296222720, free 187523936, used 108698784, increment 0
+Initial loss: 9.223157875686796
+Time since start: 1353.796
+400: time = 0.579000 loss = 8.576336
+Res.gain: 0.6468223311548389
+Jackknife: only BioClim8
+Making features
+makeFeatures: max memory 1908932608, total allocated 296222720, free 146684120, used 149538600, increment 40839816
+Pinus_taeda_9 BioClim8: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 296222720, free 142776656, used 153446064, increment 3907464
+linearPredictor: max memory 1908932608, total allocated 296222720, free 142776656, used 153446064, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 296222720, free 142776656, used 153446064, increment 0
+Sequential: max memory 1908932608, total allocated 296222720, free 142776656, used 153446064, increment 0
+Initial loss: 9.223157875686796
+Time since start: 1355.111
+820: time = 1.299000 loss = 8.482945
+Res.gain: 0.740213234617455
+Jackknife: only BioClim9
+Making features
+makeFeatures: max memory 1908932608, total allocated 296222720, free 55999336, used 240223384, increment 86777320
+Pinus_taeda_9 BioClim9: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 296222720, free 51923088, used 244299632, increment 4076248
+linearPredictor: max memory 1908932608, total allocated 296222720, free 51923088, used 244299632, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 296222720, free 51923088, used 244299632, increment 0
+Sequential: max memory 1908932608, total allocated 296222720, free 51923088, used 244299632, increment 0
+Initial loss: 9.223157875686796
+240: time = 0.398000 loss = 8.382944
+Res.gain: 0.8402137973171317
+Jackknife: only VariableBioClim2
+Making features
+makeFeatures: max memory 1908932608, total allocated 293601280, free 213029552, used 80571728, increment -163727904
+Pinus_taeda_9 VariableBioClim2: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 293601280, free 213029552, used 80571728, increment 0
+linearPredictor: max memory 1908932608, total allocated 293601280, free 213029552, used 80571728, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 293601280, free 213029552, used 80571728, increment 0
+Sequential: max memory 1908932608, total allocated 293601280, free 213029552, used 80571728, increment 0
+Initial loss: 9.223157875686796
+320: time = 0.441000 loss = 9.088960
+Res.gain: 0.1341976102591662
+Jackknife: only VariableBioClim4
+Making features
+makeFeatures: max memory 1908932608, total allocated 293601280, free 197397488, used 96203792, increment 15632064
+Pinus_taeda_9 VariableBioClim4: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+129 samples
+Density: max memory 1908932608, total allocated 293601280, free 197397488, used 96203792, increment 0
+linearPredictor: max memory 1908932608, total allocated 293601280, free 197397488, used 96203792, increment 0
+FeaturedSpace: max memory 1908932608, total allocated 293601280, free 197397488, used 96203792, increment 0
+Sequential: max memory 1908932608, total allocated 293601280, free 197397488, used 96203792, increment 0
+Initial loss: 9.223157875686796
+Time since start: 1357.41
+360: time = 1.408000 loss = 8.291375
+Res.gain: 0.9317833143502696
+Creating average grid, stddev grid etc.
+Writing file /Users/boltece/Desktop/Trial_4/taeda_7common_var/data fixed/Pinus_taeda_avg.asc
+Writing file /Users/boltece/Desktop/Trial_4/taeda_7common_var/data fixed/Pinus_taeda_stddev.asc
+Writing file /Users/boltece/Desktop/Trial_4/taeda_7common_var/data fixed/Pinus_taeda_min.asc
+Writing file /Users/boltece/Desktop/Trial_4/taeda_7common_var/data fixed/Pinus_taeda_max.asc
+Writing file /Users/boltece/Desktop/Trial_4/taeda_7common_var/data fixed/Pinus_taeda_median.asc
+Time since start: 1609.712
+Writing /Users/boltece/Desktop/Trial_4/taeda_7common_var/data fixed/plots/Pinus_taeda_avg.png
+Time since start: 1612.24
+Writing /Users/boltece/Desktop/Trial_4/taeda_7common_var/data fixed/plots/Pinus_taeda_stddev.png
+Time since start: 1614.92
+Writing /Users/boltece/Desktop/Trial_4/taeda_7common_var/data fixed/plots/Pinus_taeda_min.png
+Time since start: 1617.587
+Writing /Users/boltece/Desktop/Trial_4/taeda_7common_var/data fixed/plots/Pinus_taeda_max.png
+Time since start: 1620.369
+Writing /Users/boltece/Desktop/Trial_4/taeda_7common_var/data fixed/plots/Pinus_taeda_median.png
+Time since start: 1622.893
+Pinus_taeda average response curves
+Time since start: 1624.801
+Ending
