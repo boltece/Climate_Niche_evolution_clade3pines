@@ -1,5 +1,5 @@
 # Niche evolution_2018
-Included Supporting information for a manuscript entitled "Niche conservatism or divergence: Insights into the evolutionary histories of Pinus taeda, P. rigida, and P. pungens."
+Includes Supporting Information for a manuscript entitled "Niche conservatism or divergence: Insights into the evolutionary histories of Pinus taeda, P. rigida, and P. pungens."
 
 The maxent.log files for each ecological niche model (ENM) are included. Information pertaining to each full ENM is within a file labelled Maxent_Pinus_(sp name).log.
 
